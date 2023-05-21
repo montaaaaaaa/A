@@ -277,7 +277,7 @@ function createMockExam(data) {
         for(let i = 0; i < numOfQuestionsPerTopic; i++) {
             const randomIndex = Math.floor(Math.random() * questions.length);
             mockExamQuestions.push(questions[randomIndex]);
-            questions.splice(randomIndex, 1); // Removemos la pregunta seleccionada para evitar duplicados
+            //questions.splice(randomIndex, 1); // Removemos la pregunta seleccionada para evitar duplicados
         }
     });
 
