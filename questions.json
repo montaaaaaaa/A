@@ -1,0 +1,2437 @@
+[
+  {
+    "topic": "01: Introducción",
+    "questions": [
+      {
+        "question": "¿Cuál es la primera ley de la arquitectura del software?",
+        "options": [
+          "Un arquitecto de software no debe mezclarse con ingenieros",
+          "Todo sistema software debe de tener unos planos",
+          "Individuos e interacciones sobre procesos y herramientas",
+          "Todo en arquitectura es una solución de compromiso"
+        ],
+        "answer": 3,
+        "explanation": "Todo en arquitectura es una solución de compromiso"
+      },
+      {
+        "question": "La mayoría de decisiones de arquitectura del software vienen determinadas por",
+        "options": [
+          "Los atributos de calidad o requisitos no funcionales",
+          "El equipo de desarrollo",
+          "El entorno de desarrollo",
+          "Los requisitos funcionales"
+        ],
+        "answer": 0,
+        "explanation": "Los atributos de calidad o requisitos no funcionales"
+      },
+      {
+        "question": "Las restricciones...",
+        "options": [
+          "son un problema que hay que tratar de evitar",
+          "es bueno conocerlas porque limitan alternativas a considerar",
+          "son imposiciones de los jefes de proyecto que hay que evitar",
+          "son imposiciones de los arquitectos de software al equipo"
+        ],
+        "answer": 1,
+        "explanation": "es bueno conocerlas porque limitan alternativas a considerar"
+      },
+      {
+        "question": "Los stakeholders...",
+        "options": [
+          "Son entidades abstractas que identifican requisitos funcionales",
+          "Son roles que deben adoptar los arquitectos de software",
+          "Son personas interesadas en el proyecto",
+          "Son los dueños del proyecto"
+        ],
+        "answer": 2,
+        "explanation": "Son personas interesadas en el proyecto"
+      },
+      {
+        "question": "Un sistema greenfield",
+        "options": [
+          "Es un proyecto de mejora de un sistema existente",
+          "Es un software respetuoso con el medio ambiente",
+          "Es un proyecto nuevo",
+          "Es un proyecto finalizado"
+        ],
+        "answer": 2,
+        "explanation": "Es un proyecto nuevo"
+      },
+      {
+        "question": "¿Existe arquitectura del software ágil?",
+        "options": [
+          "No, la arquitectura del software no es compatible con metodologías ágiles",
+          "Sí, cuando los arquitectos de software se ponen a dieta",
+          "Sí, cuando desaparecen los arquitectos de software",
+          "Sí, cuando la arquitectura puede reaccionar a cambios en el entorno"
+        ],
+        "answer": 3,
+        "explanation": "Sí, cuando la arquitectura puede reaccionar a cambios en el entorno"
+      },
+      {
+        "question": "Etimológicamente, arquitecto viene de",
+        "options": [
+          "Creador jefe",
+          "Dibujante de edificios",
+          "Planificador de obras",
+          "Obrero con alas"
+        ],
+        "answer": 0,
+        "explanation": "Creador jefe"
+      }
+    ]
+  },
+  {
+    "topic": "02: Definiciones",
+    "questions": [
+      {
+        "question": "¿Cuál es la primera ley de la arquitectura del software?",
+        "options": [
+          "Todo en arquitectura es una solución de compromiso",
+          "Un arquitecto de software no debe mezclarse con ingenieros",
+          "Todo sistema software debe de tener unos planos",
+          "Individuos e interacciones sobre procesos y herramientas"
+        ],
+        "answer": 0,
+        "explanation": "Todo en arquitectura es una solución de compromiso"
+      },
+      {
+        "question": "La \"building block view\" de Arc42",
+        "options": [
+          "Contiene un diagrama detallado de todos los componentes",
+          "Contiene un diagrama que combina cajas blancas y negras",
+          "Puede contener varios diagramas de cajas negras y blancas combinados",
+          "Se realiza mediante diagramas de despliegue de UML"
+        ],
+        "answer": 2,
+        "explanation": "Puede contener varios diagramas de cajas negras y blancas combinados"
+      },
+      {
+        "question": "La mayoría de decisiones de arquitectura del software vienen determinadas por",
+        "options": [
+          "El equipo de desarrollo",
+          "Los atributos de calidad o requisitos no funcionales",
+          "El entorno de desarrollo",
+          "Los requisitos funcionales"
+        ],
+        "answer": 1,
+        "explanation": "Los atributos de calidad o requisitos no funcionales"
+      },
+      {
+        "question": "Las restricciones...",
+        "options": [
+          "son un problema que hay que tratar de evitar",
+          "son imposiciones de los arquitectos de software al equipo",
+          "es bueno conocerlas porque limitan alternativas a considerar",
+          "son imposiciones de los jefes de proyecto que hay que evitar"
+        ],
+        "answer": 2,
+        "explanation": "es bueno conocerlas porque limitan alternativas a considerar"
+      },
+      {
+        "question": "Un sistema greenfield",
+        "options": [
+          "Es un proyecto nuevo",
+          "Es un proyecto de mejora de un sistema existente",
+          "Es un proyecto finalizado",
+          "Es un software respetuoso con el medio ambiente"
+        ],
+        "answer": 0,
+        "explanation": "Es un proyecto nuevo"
+      },
+      {
+        "question": "Los stakeholders...",
+        "options": [
+          "Son entidades abstractas que identifican requisitos funcionales",
+          "Son roles que deben adoptar los arquitectos de software",
+          "Son los dueños del proyecto",
+          "Son personas interesadas en el proyecto"
+        ],
+        "answer": 3,
+        "explanation": "Son personas interesadas en el proyecto"
+      },
+      {
+        "question": "¿Existe arquitectura del software ágil?",
+        "options": [
+          "Sí, cuando desaparecen los arquitectos de software",
+          "No, la arquitectura del software no es compatible con metodologías ágiles",
+          "Sí, cuando la arquitectura puede reaccionar a cambios en el entorno",
+          "Sí, cuando los arquitectos de software se ponen a dieta"
+        ],
+        "answer": 2,
+        "explanation": "Sí, cuando la arquitectura puede reaccionar a cambios en el entorno"
+      },
+      {
+        "question": "¿Quién dijo que los pilares de una buena arquitectura eran Utilidad, durabilidad y elegancia?",
+        "options": [
+          "Julio César en 15 al 30 a. de C.",
+          "Vitruvio en 15 al 30 a. de C.",
+          "Martin Fowler en el s. XX",
+          "Aristóteles en 300 a. de C."
+        ],
+        "answer": 1,
+        "explanation": "Vitruvio en 15 al 30 a. de C."
+      },
+      {
+        "question": "Big design Up-front",
+        "options": [
+          "Es un problema al generar demasiados documentos o diagramas innecesarios",
+          "Es necesario para grandes sistemas de software",
+          "Consiste en retrasar decisiones hasta último momento necesario",
+          "Facilita la gestión de proyectos mediante grandes decisiones de diseño"
+        ],
+        "answer": 0,
+        "explanation": "Es un problema al generar demasiados documentos o diagramas innecesarios"
+      },
+      {
+        "question": "¿Cuál es la segunda ley de arquitectura del software?",
+        "options": [
+          "El cómo es más importante que el porqué",
+          "El porqué es más importante que el cómo",
+          "El cómo es más importante que el porqué",
+          "El quién es más importante que el porqué"
+        ],
+        "answer": 1,
+        "explanation": "El porqué es más importante que el cómo"
+      },
+      {
+        "question": "Los requisitos funcionales...",
+        "options": [
+          "No afectan a la arquitectura del software",
+          "Suelen terminar en -idad, como escalabilidad, seguridad...",
+          "Son la principal preocupación del arquitecto del software",
+          "Son una entrada que el arquitecto del software puede considerar"
+        ],
+        "answer": 3,
+        "explanation": "Son una entrada que el arquitecto del software puede considerar"
+      },
+      {
+        "question": "ISO-25010 contiene...",
+        "options": [
+          "...una lista de posibles requisitos funcionales",
+          "...una lista de objetivos de diseño",
+          "...una lista de posibles atributos de calidad",
+          "...una lista de restricciones de arquitectura del software"
+        ],
+        "answer": 2,
+        "explanation": "...una lista de posibles atributos de calidad"
+      },
+      {
+        "question": "Una representación del sistema respecto a ciertas preocupaciones...",
+        "options": [
+          "Es una vista",
+          "Es un punto de vista",
+          "Es una restricción",
+          "Es un atributo de calidad"
+        ],
+        "answer": 0,
+        "explanation": "Es una vista"
+      },
+      {
+        "question": "¿Es posible utilizar bocetos para documentar una vista?",
+        "options": [
+          "No, porque las vistas deben documentarse únicamente con diagramas UML",
+          "Sí, pero se recomienda que se registren, aunque sea con una foto",
+          "No, porque las vistas no pueden contener diagramas",
+          "Sí, pero únicamente cuando se utiliza el patrón MVC"
+        ],
+        "answer": 1,
+        "explanation": "Sí, pero se recomienda que se registren, aunque sea con una foto"
+      },
+      {
+        "question": "Un ADL es...",
+        "options": [
+          "Auténtico Desastre Logístico",
+          "Lenguaje para la Definición de Atributos de calidad",
+          "Lenguaje para la Definición de Artefactos",
+          "Lenguaje de descripción de arquitecturas"
+        ],
+        "answer": 3,
+        "explanation": "Lenguaje de descripción de arquitecturas"
+      },
+      {
+        "question": "¿Cuál de las siguientes NO es una propuesta para la documentación de arquitecturas de software?",
+        "options": [
+          "Modelo 5+1 de Kruchten",
+          "Arc42",
+          "Modelo C4",
+          "Auténtico Desastre Logístico"
+        ],
+        "answer": 0,
+        "explanation": "Modelo 5+1 de Kruchten"
+      },
+      {
+        "question": "Los sistemas brownfield",
+        "options": [
+          "Son sistemas obsoletos",
+          "Son sistemas completamente nuevos",
+          "Son proyectos que consisten en cambiar sistemas ya existentes",
+          "Son sistemas obseletos"
+        ],
+        "answer": 2,
+        "explanation": "Son proyectos que consisten en cambiar sistemas ya existentes"
+      },
+      {
+        "question": "¿Cuántos diagramas de contexto se suelen incluir en Arc42?",
+        "options": [
+          "Dos: el técnico que es obligatorio y el de contexto que es opcional",
+          "Dos: el de negocio que es obligatorio y el técnico que es opcional",
+          "Uno: el diagrama de contexto de negocio",
+          "Uno: el diagrama de contexto técnico"
+        ],
+        "answer": 1,
+        "explanation": "Dos: el de negocio que es obligatorio y el técnico que es opcional"
+      },
+      {
+        "question": "¿Cómo se definen los requisitos de calidad?",
+        "options": [
+          "Mediante diagramas de despliegue UML",
+          "Mediante una tabla de riesgos",
+          "Mediante técnicas no funcionales",
+          "Mediante escenarios de calidad"
+        ],
+        "answer": 3,
+        "explanation": "Mediante escenarios de calidad"
+      },
+      {
+        "question": "Etimológicamente, arquitecto viene de",
+        "options": [
+          "Creador jefe",
+          "Dibujante de edificios",
+          "Planificador de obras",
+          "Obrero con alas"
+        ],
+        "answer": 0,
+        "explanation": "Creador jefe"
+      },
+      {
+        "question": "En Arc42",
+        "options": [
+          "Las 3 primeras secciones describen solución y las 8 siguientes el problema",
+          "Las 3 primeras secciones describen problema, las 8 siguientes la solución",
+          "Todas las secciones describen el problema",
+          "Todas las secciones describen la solución"
+        ],
+        "answer": 0,
+        "explanation": "Las 3 primeras secciones describen problema, las 8 siguientes la solución"
+      },
+      {
+        "question": "La primera sección de Arc42",
+        "options": [
+          "Describe el diagrama de contexto",
+          "Contiene un glosario de términos",
+          "Describe la estrategia de la solución",
+          "Consta de repaso de requisitos, objetivos de calidad y stakeholders"
+        ],
+        "answer": 3,
+        "explanation": "Consta de repaso de requisitos, objetivos de calidad y stakeholders"
+      },
+      {
+        "question": "La segunda sección de Arc42",
+        "options": [
+          "Contiene el diagrama de contexto",
+          "Describe las restricciones",
+          "Contiene un glosario de términos",
+          "Describe la estrategia de la solución"
+        ],
+        "answer": 1,
+        "explanation": "Describe las restricciones"
+      },
+      {
+        "question": "La vista de despliegue en Arc42",
+        "options": [
+          "Consiste en una lista de nodos computacionales",
+          "Se realiza mediante diagramas de clase UML",
+          "Contiene un mapeo de los bloques de construcción software a infraestructura",
+          "Se realiza mediante diagramas de caja blanca y negra combinados"
+        ],
+        "answer": 2,
+        "explanation": "Contiene un mapeo de los bloques de construcción software a infraestructura"
+      },
+      {
+        "question": "En Arc42...",
+        "options": [
+          "Hay una sección específica para riesgos y deuda técnica",
+          "Los riesgos y deuda técnica se incluyen en sección objetivos de calidad",
+          "Los riesgos y la deuda técnica se analizan en el glosario",
+          "No es necesario describir riesgos ni deuda técnica"
+        ],
+        "answer": 0,
+        "explanation": "Hay una sección específica para riesgos y deuda técnica"
+      }
+    ]
+  },
+  {
+    "topic": "03: Stakeholders y Atributos de Calidad",
+    "questions": [
+      {
+        "question": "Un buen arquitecto de software intenta",
+        "options": [
+          "Saber todo sobre todas las tecnologías",
+          "Mover cosas que sabe que no sabe a cosas que no sabe",
+          "Mover cosas que no sabe que no sabe a cosas que sabe que no sabe",
+          "Mover cosas que no sabe a cosas que sabe el equipo de desarrollo"
+        ],
+        "answer": 2,
+        "explanation": "Mover cosas que no sabe que no sabe a cosas que sabe que no sabe"
+      },
+      {
+        "question": "En general, un buen arquitecto de software tiene...",
+        "options": [
+          "Más amplitud técnica que profundidad",
+          "Conocimiento en profundidad de las tecnologías",
+          "Imponer al equipo de desarrollo las decisiones",
+          "Ser capaz de programar mejor que cualquier desarrollador"
+        ],
+        "answer": 0,
+        "explanation": "Más amplitud técnica que profundidad"
+      },
+      {
+        "question": "Según Google, los 3 pilares de una buena interacción social son:",
+        "options": [
+          "Sabiduría, templanza y generosidad",
+          "Imaginación, inteligencia y ambición",
+          "Humildad, confianza y respeto",
+          "Liderazgo, comprensión y obediencia"
+        ],
+        "answer": 2,
+        "explanation": "Humildad, confianza y respeto"
+      },
+      {
+        "question": "El factor del autobús es...",
+        "options": [
+          "La probabilidad de que un autobús atropelle al arquitecto del software",
+          "Nº personas que si son atropelladas por un autobús, el proyecto fracasa",
+          "La distancia entre un arquitecto de software y su equipo de desarrollo",
+          "La probabilidad de que un desarrollador realice una tarea"
+        ],
+        "answer": 1,
+        "explanation": "Nº personas que si son atropelladas por un autobús, el proyecto fracasa"
+      },
+      {
+        "question": "Un arquitecto de software efectivo debe encontrar un balance entre...",
+        "options": [
+          "Capacidad de trabajo en equipo y liderazgo",
+          "Conocimiento en amplitud y experiencia",
+          "Friki de control y arquitecto de sillón",
+          "Participar en todas las decisiones y desarrollar código"
+        ],
+        "answer": 2,
+        "explanation": "Friki de control y arquitecto de sillón"
+      },
+      {
+        "question": "Según la ley de Conway, las organizaciones que diseñan sistemas...",
+        "options": [
+          "producen diseños basados en 3 capas",
+          "producen diseños que son copias de las estructuras de estas organizaciones",
+          "tienden a crear diseños monolíticos",
+          "producen diseños que copian el resto de organizaciones"
+        ],
+        "answer": 1,
+        "explanation": "producen diseños que son copias de las estructuras de estas organizaciones"
+      },
+      {
+        "question": "La maniobra inversa de Conway consiste en",
+        "options": [
+          "Evolucionar equipos para promover la arquitectura deseada",
+          "Asignar componentes a los equipos de desarrollo existentes",
+          "Componentes de software que dependen de abstracciones",
+          "Abstracciones que dependen de componentes de software"
+        ],
+        "answer": 0,
+        "explanation": "Evolucionar equipos para promover la arquitectura deseada"
+      },
+      {
+        "question": "La pérdida por proceso es...",
+        "options": [
+          "Diferencia entre potencial de grupo y productividad actual del equipo",
+          "Número de usuarios de un sistema dividido entre los procesos del sistema",
+          "Diferencia entre número de hilos y número de CPUs",
+          "Lo que ocurre al utilizar la Ley de Conway para crear equipos"
+        ],
+        "answer": 0,
+        "explanation": "Diferencia entre potencial de grupo y productividad actual del equipo"
+      },
+      {
+        "question": "Se produce ignorancia colectiva cuando",
+        "options": [
+          "Los arquitectos definen equipos con tecnologías desconocidas",
+          "Nadie sabe cómo va a evolucionar el software",
+          "Todos están públicamente de acuerdo en algo pero privadamente no",
+          "Los desarrolladores desconocen las decisiones tomadas por el arquitecto"
+        ],
+        "answer": 2,
+        "explanation": "Todos están públicamente de acuerdo en algo pero privadamente no"
+      },
+      {
+        "question": "La difusión de responsabilidad puede hacer que",
+        "options": [
+          "Los arquitectos añadan una cláusula eximiéndoles de la responsabilidad",
+          "Los desarrollladores añadan una cláusula eximiéndoles de responsabilidad",
+          "Exista confusión sobre quién es responsable de qué",
+          "La responsabilidad se divida entre desarroladores y arquitectos"
+        ],
+        "answer": 2,
+        "explanation": "Exista confusión sobre quién es responsable de qué"
+      },
+      {
+        "question": "Las preocupaciones de los stakeholders",
+        "options": [
+          "Son identificadas por los arquitectos y acordadas para que sean las mismas",
+          "Pueden ser contradictorias",
+          "No afectan al sistema",
+          "Son definidas por los arquitectos"
+        ],
+        "answer": 1,
+        "explanation": "Pueden ser contradictorias"
+      },
+      {
+        "question": "Los atributos de calidad",
+        "options": [
+          "Suelen ser declarados explícitamente por los clientes",
+          "Son independientes entre sí",
+          "Son operacionales",
+          "Cualifican la funcionalidad"
+        ],
+        "answer": 3,
+        "explanation": "Cualifican la funcionalidad"
+      },
+      {
+        "question": "Un taller de atributos de calidad",
+        "options": [
+          "Es una reunión con stakeholders para identificar atributos de calidad",
+          "Es un técnica para reparar los atributos de calidad mal definidos"
+        ],
+        "answer": 0,
+        "explanation": "Reuniones con stakeholders para identificar y priorizar los atributos y escenarios de calidad"
+      },
+      {
+        "question": "Una técnica para representar atributos de calidad es",
+        "options": [
+          "Un diagrama de despliegue UML",
+          "Un diagrama de clases UML",
+          "Un diagrama MindMap",
+          "Un diagrama de estados"
+        ],
+        "answer": 2,
+        "explanation": "Un diagrama MindMap"
+      },
+      {
+        "question": "¿Cuál de las siguientes frases es correcta?",
+        "options": [
+          "Los atributos de calidad son independientes entre sí",
+          "Muchos atributos de calidad tienen significados vagos",
+          "El valor de los atributos de calidad es independiente del proyecto",
+          "La funcionalidad determina por sí sola los atributos de calidad"
+        ],
+        "answer": 1,
+        "explanation": "Muchos atributos de calidad tienen significados vagos"
+      },
+      {
+        "question": "La calidad de un sistema es",
+        "options": [
+          "El grado en que un sistema satisface unas necesidades",
+          "La capacidad de que resuelva los requisitos funcionales",
+          "Un valor booleano, la tiene o no la tiene",
+          "Un resultado de dividir el número de quejas entre el número de usuarios"
+        ],
+        "answer": 0,
+        "explanation": "El grado en que un sistema satisface unas necesidades"
+      },
+      {
+        "question": "Un escenario de calidad define",
+        "options": [
+          "Un requisito funcional",
+          "Una técnica para realizar diagramas MindMap",
+          "Un estímulo y una respuesta medible a dicho estímulo",
+          "Una descripción de las necesidades de los desarrolladores"
+        ],
+        "answer": 2,
+        "explanation": "Un estímulo y una respuesta medible a dicho estímulo"
+      },
+      {
+        "question": "Los escenarios de calidad pueden clasificarse en...",
+        "options": [
+          "Escenarios buenos y malos",
+          "Escenarios de uso, de cambio o modificación, y de fallo",
+          "Escenarios de uso adecuado o inadecuado",
+          "Escenarios de calidad alta, baja o media"
+        ],
+        "answer": 1,
+        "explanation": "Escenarios de uso, de cambio o modificación, y de fallo"
+      },
+      {
+        "question": "Los escenarios de calidad deben...",
+        "options": [
+          "Priorizarse de acuerdo a la importancia para el éxito y la dificultad",
+          "Ser tratados todos por igual",
+          "Ser identificados y resueltos antes de comenzar a desarrollar",
+          "Definirse antes de identificar a los stakeholders"
+        ],
+        "answer": 0,
+        "explanation": "Priorizarse de acuerdo a la importancia para el éxito y la dificultad"
+      },
+      {
+        "question": "En ISO-25010, la calidad...",
+        "options": [
+          "Se divide en 2 dimensiones: Calidad de producto y calidad en uso",
+          "Se cumple si se cumplen los 13 atributos de calidad que se definen",
+          "Se cumple cuando los arquitectos definen escenarios de calidad adecuados",
+          "Se establece como una percepción subjetiva"
+        ],
+        "answer": 0,
+        "explanation": "Se divide en 2 dimensiones: Calidad de producto y calidad en uso"
+      },
+      {
+        "question": "MTBF y MTTR",
+        "options": [
+          "Se utilizan para medir la complejidad ciclomática",
+          "Son dos técnicas utilizadas para identificar stakeholders",
+          "Se utilizan para medir la escalabilidad",
+          "Son tiempo medio entre fallos y tiempo medio de recuperación"
+        ],
+        "answer": 3,
+        "explanation": "Son tiempo medio entre fallos y tiempo medio de recuperación"
+      },
+      {
+        "question": "La complejidad ciclomática de McCabe...",
+        "options": [
+          "Se utiliza para descomponer equipos de trabajo",
+          "Es una métrica de la complejidad de un código",
+          "Se utiliza para identificar escenarios de calidad",
+          "Es una técnica para identificar necesidades complejas de stakeholders"
+        ],
+        "answer": 1,
+        "explanation": "Es una métrica de la complejidad de un código"
+      },
+      {
+        "question": "En arquitecturas del software evolutivas...",
+        "options": [
+          "Puede definirse la función de encaje que mide atributos de calidad",
+          "Los arquitectos deben ir evolucionando para adaptarse al entorno",
+          "El entorno debe evolucionar para adaptarse a los arquitectos",
+          "Los escenarios de calidad se adaptan a los requisitos funcionales"
+        ],
+        "answer": 0,
+        "explanation": "Puede definirse la función de encaje que mide atributos de calidad"
+      },
+      {
+        "question": "Las métricas de software",
+        "options": [
+          "Clasifican el software en función de su altura",
+          "Se utilizan para identificar a los stakeholders",
+          "Son medidas objetivas de ciertos aspectos de calidad",
+          "Se utilizan para controlar la Ley de Conway"
+        ],
+        "answer": 2,
+        "explanation": "Son medidas objetivas de ciertos aspectos de calidad"
+      }
+    ]
+  },
+  {
+    "topic": "04: Patrones de Construcción",
+    "questions": [
+      {
+        "question": "ATAM",
+        "options": [
+          "Es una técnica para evaluar arquitecturas usando atributos de calidad",
+          "Es un lenguage para la descripción de arquitecturas",
+          "Es una técnica para generar escenarios de calidad",
+          "Permite evaluar arquitecturas teniendo en cuenta costes y beneficios"
+        ],
+        "answer": 0,
+        "explanation": "Es una técnica para evaluar arquitecturas usando atributos de calidad"
+      },
+      {
+        "question": "CBAM",
+        "options": [
+          "Es una técnica para generar escenarios de calidad",
+          "Es utilizado para generar pruebas de aceptación",
+          "Cuantifica costes y beneficios de estrategias arquitectónicas",
+          "Se refiere a los componentes desarrollados de forma externa"
+        ],
+        "answer": 2,
+        "explanation": "Cuantifica costes y beneficios de estrategias arquitectónicas"
+      },
+      {
+        "question": "Las tácticas en arquitectura del software...",
+        "options": [
+          "Son independientes de los atributos de calidad",
+          "Dependen del atributo de calidad",
+          "Se conocen también como patrones arquitectónicos",
+          "Son soluciones generales y reutilizables a problemas recurrentes"
+        ],
+        "answer": 1,
+        "explanation": "Dependen del atributo de calidad"
+      },
+      {
+        "question": "Se recomienda que los registros de decisiones arquitectónicas sean",
+        "options": [
+          "Revisados y actualizados continuamente",
+          "Acordados con todos los stakeholders antes de registrarse",
+          "Inmutables",
+          "Actualizados en cada etapa del desarrollo"
+        ],
+        "answer": 2,
+        "explanation": "Inmutables"
+      },
+      {
+        "question": "ADD es una..",
+        "options": [
+          "Metodología para crear una arquitectura basada en atributos de calidad",
+          "técnica para evaluar una arquitectura basada en atributos de calidad",
+          "lista de escenarios de calidad",
+          "técnica para gestionar el riesgo de las decisiones arquitectónicas"
+        ],
+        "answer": 0,
+        "explanation": "Metodología para crear una arquitectura basada en atributos de calidad"
+      },
+      {
+        "question": "Algo malo que podría ocurrir pero que todavía no ha ocurrido es...",
+        "options": [
+          "Algo desconocido",
+          "Un problema",
+          "Una deuda técnica",
+          "Un riesgo"
+        ],
+        "answer": 3,
+        "explanation": "Un riesgo"
+      },
+      {
+        "question": "Una deuda técnica...",
+        "options": [
+          "Puede ser de varios tipos: código, diseño, documentación,...",
+          "Es siempre devuelta al terminar el proyecto",
+          "Es un problema de comprensión entre arquitectos y desarrolladores",
+          "Es algo malo que podría ocurrir pero todavía no ha ocurrido"
+        ],
+        "answer": 0,
+        "explanation": "Puede ser de varios tipos: código, diseño, documentación,..."
+      },
+      {
+        "question": "Para mitigar el deterioro arquitectónico puede utilizarse...",
+        "options": [
+          "Una tabla de riesgos",
+          "Código arquitectónicamente evidente",
+          "ADD",
+          "Un mapa de stakeholders"
+        ],
+        "answer": 1,
+        "explanation": "Código arquitectónicamente evidente"
+      },
+      {
+        "question": "Una diferencia entre estilo y patrón arquitectónico es...",
+        "options": [
+          "Que los patrones suelen ser indepependientes entre sí y los estilos no",
+          "Que los estilos suelen ser independientes entre sí y los patrones no",
+          "Que los estilos se recogen en un catálogo y los patrones no",
+          "Que los patrones definen la arquitectura general y los estilos no"
+        ],
+        "answer": 1,
+        "explanation": "Que los estilos suelen ser independientes entre sí y los patrones no"
+      },
+      {
+        "question": "COTS",
+        "options": [
+          "Se refiere a software comercial ya existente",
+          "Es una técnica para generar escenarios de calidad",
+          "Es una técnica para crear arquitecturas",
+          "Es una técnica para evaluar arquitecturas"
+        ],
+        "answer": 0,
+        "explanation": "Se refiere a software comercial ya existente"
+      },
+      {
+        "question": "BDD",
+        "options": [
+          "Es una técnica para evaluar arquitecturas",
+          "Es \"Balance Driven Design\"",
+          "Realiza pruebas de aceptación con historias de usuario",
+          "Es una técnica para crear arquitecturas basadas en comportamiento"
+        ],
+        "answer": 2,
+        "explanation": "Realiza pruebas de aceptación con historias de usuario"
+      },
+      {
+        "question": "La recomendación FIRST se refiere a...",
+        "options": [
+          "una técnica de descomposición modular",
+          "una técnica para analizar arquitecturas de software",
+          "una metodología ágil",
+          "Que las pruebas sean Fast, Independent, Repeatable, Self-checking y Timely"
+        ],
+        "answer": 3,
+        "explanation": "Que las pruebas sean Fast, Independent, Repeatable, Self-checking y Timely"
+      },
+      {
+        "question": "La integración continua",
+        "options": [
+          "automatiza la ejecución de las pruebas en entornos externos",
+          "automatiza el despliegue del sistema",
+          "se utiliza para aumentar la rapidez del desarrollo mediante contenedores",
+          "es un problema cuando hay equipos con más de un desarrollador"
+        ],
+        "answer": 0,
+        "explanation": "automatiza la ejecución de las pruebas en entornos externos"
+      },
+      {
+        "question": "La gestión de configuraciones de software",
+        "options": [
+          "Se utiliza para crear escenarios de calidad configurables",
+          "Permite observar la evolución del software",
+          "Debe evitarse en equipos grandes",
+          "Consiste en utilizar ficheros de configuración"
+        ],
+        "answer": 1,
+        "explanation": "Permite observar la evolución del software"
+      },
+      {
+        "question": "¿Cuál de los siguientes es un sistema de control de versiones distribuido?",
+        "options": [
+          "cvs",
+          "subversion",
+          "git",
+          "distributed-git"
+        ],
+        "answer": 2,
+        "explanation": "git"
+      },
+      {
+        "question": "Utilizando versioneado semántico, al pasar de la versión 1.2.3 a 1.3.0",
+        "options": [
+          "Se espera nueva funcionalidad compatible con la anterior",
+          "Se espera nueva funcionalidad que puede ser incompatible con anterior",
+          "Se esperan cambios menores o hotfixes",
+          "Se espera cualquier cosa"
+        ],
+        "answer": 0,
+        "explanation": "Se espera nueva funcionalidad compatible con la anterior"
+      },
+      {
+        "question": "En git, el nombre del primer repositorio remoto que se clona es",
+        "options": [
+          "remote",
+          "master",
+          "push",
+          "origin"
+        ],
+        "answer": 3,
+        "explanation": "origin"
+      },
+      {
+        "question": "¿Cuál es el comando que permite cambiar de una rama a otra en git?",
+        "options": [
+          "branch",
+          "jump",
+          "checkout",
+          "push"
+        ],
+        "answer": 2,
+        "explanation": "checkout"
+      },
+      {
+        "question": "¿Cuál de los siguientes NO es un sistema de automatización de la construcción?",
+        "options": [
+          "groovy",
+          "maven",
+          "npm",
+          "gradle"
+        ],
+        "answer": 0,
+        "explanation": "groovy"
+      },
+      {
+        "question": "Los ficheros de configuración utilizados en Maven...",
+        "options": [
+          "Son ficheros JSON",
+          "Son ficheros XML",
+          "Son ficheros YAML",
+          "Son ficheros Typescript"
+        ],
+        "answer": 1,
+        "explanation": "Son ficheros XML"
+      },
+      {
+        "question": "Las dependencias de paquetes en npm se declaran en...",
+        "options": [
+          "Fichero package.json",
+          "Fichero tsconfig.json",
+          "Fichero build.xml",
+          "Fichero index.js"
+        ],
+        "answer": 0,
+        "explanation": "Fichero package.json"
+      },
+      {
+        "question": "La diferencia entre \"npm install paquete\" y \"npm install -g paquete\"",
+        "options": [
+          "El primero instala paquetes en node y el segundo en docker",
+          "No hay diferencia",
+          "El primero instala dependencias en carpeta node_modules",
+          "El segundo instala dependencias en carpeta node_modules"
+        ],
+        "answer": 2,
+        "explanation": "El primero instala dependencias en carpeta node_modules"
+      },
+      {
+        "question": "Integration hell se produce cuando...",
+        "options": [
+          "Se crea sistemas de software muy grandes",
+          "Se realizan integraciones de código con mucha frecuencia",
+          "Se utilizan sistemas de automatización de la construcción",
+          "Se espera mucho tiempo sin integrar código de diferentes desarrolladores"
+        ],
+        "answer": 3,
+        "explanation": "Se espera mucho tiempo sin integrar código de diferentes desarrolladores"
+      }
+    ]
+  },
+  {
+    "topic": "05: Modularidad",
+    "questions": [
+      {
+        "question": "La inercia en el estilo Big ball of mud hace que...",
+        "options": [
+          "el sistema vaya aumentando continuamente de tamaño",
+          "el sistema aumente la velocidad de forma impredecible",
+          "se utilice descomposición modular mediante principios SOLID",
+          "unos pocos desarrolladores \"de prestigio\" sepan mantener el sistema"
+        ],
+        "answer": 3,
+        "explanation": "unos pocos desarrolladores \"de prestigio\" sepan mantener el sistema"
+      },
+      {
+        "question": "¿Tiene algún atributo de calidad positivo el estilo big ball of mud?",
+        "options": [
+          "Sí, el time-to-market y el bajo coste inicia",
+          "Sí, el mantenimiento",
+          "Sí, la modularidad",
+          "No, es algo que hay que evitar siempre"
+        ],
+        "answer": 0,
+        "explanation": "Sí, el time-to-market y el bajo coste inicia"
+      },
+      {
+        "question": "La S de SOLID indica que...",
+        "options": [
+          "Un módulo debe estar abierto para extender y cerrado para modificar",
+          "No debe haber más de un motivo para cambiar un módulo",
+          "Los subtipos deben seguir el contrato de los supertipos",
+          "Los clientes no deben depender de métodos que no usan"
+        ],
+        "answer": 1,
+        "explanation": "No debe haber más de un motivo para cambiar un módulo"
+      },
+      {
+        "question": "El principio de Liskov indica que",
+        "options": [
+          "Los supertipos deben respetar el contrato de los subtipos",
+          "Los subtipos deben respetar el contrato de los supertipos",
+          "Los subtipos y los supertipos son independientes",
+          "Las clases abstractas deben depender de las clases concretas"
+        ],
+        "answer": 1,
+        "explanation": "Los subtipos deben respetar el contrato de los supertipos"
+      },
+      {
+        "question": "Según el principio de segregación de interfaces",
+        "options": [
+          "Los servidores no deberían depender de métodos que no utilicen",
+          "Los clientes dependen de un interfaz definido por los servidores",
+          "Los clientes no deberían depender de métodos que no utilicen",
+          "Los clientes y los servidores utilizan interfaces segregadas"
+        ],
+        "answer": 2,
+        "explanation": "Los clientes no deberían depender de métodos que no utilicen"
+      },
+      {
+        "question": "Según el principio de inversión de dependencia",
+        "options": [
+          "Las dependencias no pueden contener ciclos",
+          "Los supertipos dependen de subtipos",
+          "Los módulos de bajo nivel no dependen de módulos de alto nivel",
+          "Los módulos de alto nivel no dependen de módulos de bajo nivel"
+        ],
+        "answer": 3,
+        "explanation": "Los módulos de alto nivel no dependen de módulos de bajo nivel"
+      },
+      {
+        "question": "Se recomienda...",
+        "options": [
+          "Alta cohesividad y bajo acoplamiento",
+          "Alto acoplamiento y baja cohesividad",
+          "Alto acoplamiento y alta cohesividad",
+          "Bajo acoplamiento y baja cohesividad"
+        ],
+        "answer": 0,
+        "explanation": "Alta cohesividad y bajo acoplamiento"
+      },
+      {
+        "question": "En la métrica LCOM",
+        "options": [
+          "Cuanto mayor sea, mejor porque hay menos cohesividad",
+          "Cuando menor sea, mejor, porque hay menos cohesividad",
+          "Cuanto menor sea, mejor, porque hay más cohesividad",
+          "Cuanto mayor sea, mejor, porque hay más cohesividad"
+        ],
+        "answer": 2,
+        "explanation": "Cuanto menor sea, mejor, porque hay más cohesividad"
+      },
+      {
+        "question": "Según los principios de cohesividad de Robert Martin, REP se refiere a",
+        "options": [
+          "Juntar en un módulo todas las unidades que cambian por una misma razón",
+          "Módulos que solo dependen de unidades que necesitan",
+          "Los módulos de bajo nivel dependen de módulos de alto nivel",
+          "Equivalencia entre unidad de reutilización y de release"
+        ],
+        "answer": 3,
+        "explanation": "Equivalencia entre unidad de reutilización y de release"
+      },
+      {
+        "question": "Según los principios de cohesividad de Robert Martin, CCP se refiere a",
+        "options": [
+          "Juntar en un módulo las unidades que cambian por la misma razón",
+          "Equivalencia entre unidad de reutilización y de release",
+          "Módulos que solo dependen de unidades que necesitan",
+          "Los módulos de bajo nivel dependen de módulos de alto nivel"
+        ],
+        "answer": 0,
+        "explanation": "Juntar en un módulo las unidades que cambian por la misma razón"
+      },
+      {
+        "question": "Según diagrama de tensión de cohesividad de componentes, un fallo de CRP supone",
+        "options": [
+          "Demasiados componentes a cambiar",
+          "Demasiadas releases innecesarias",
+          "Módulos difíciles de reutilizar",
+          "Módulos inestables"
+        ],
+        "answer": 1,
+        "explanation": "Demasiadas releases innecesarias"
+      },
+      {
+        "question": "Según el principio de acoplamiento SDP de Robert Martin",
+        "options": [
+          "La estructura de dependencias debe formar un grafo dirigido acíclico",
+          "La estructura de dependencias debe formar un grafo dirigido cíclico",
+          "Un componente debería depender de componentes más estables",
+          "Un módulo debe ser tan abstracto como estable"
+        ],
+        "answer": 2,
+        "explanation": "Un componente debería depender de componentes más estables"
+      },
+      {
+        "question": "Según la figura del principio de abstracciones estables, la zona de inutilidad",
+        "options": [
+          "Son módulos abstractos e inestables",
+          "Son módulos abstractos estables",
+          "Son módulos concretos inestables",
+          "Son módulos concretos estables"
+        ],
+        "answer": 0,
+        "explanation": "Son módulos abstractos e inestables"
+      },
+      {
+        "question": "El conocimiento entre 2 elementos puede hacer que",
+        "options": [
+          "sea necesario crear ambos al mismo tiempo",
+          "sea necesario destruir ambos al mismo tiempo",
+          "un cambio en uno obliga a crear el otro para sistema correcto",
+          "un cambio en uno obliga a un cambio en otro para mantener sistema correcto"
+        ],
+        "answer": 3,
+        "explanation": "un cambio en uno obliga a un cambio en otro para mantener sistema correcto"
+      },
+      {
+        "question": "El principio de robustez de Postel recomienda que",
+        "options": [
+          "Los módulos concretos dependan de módulos abstractos",
+          "Los módulos abstractos dependan de módulos concreto",
+          "Un módulo sea liberal en lo que acepta y conservador en lo que envía",
+          "Un módulo sea conservador en lo que acepta y liberal en lo que envía"
+        ],
+        "answer": 2,
+        "explanation": "Un módulo sea liberal en lo que acepta y conservador en lo que envía"
+      },
+      {
+        "question": "La Ley de Demeter recomienda",
+        "options": [
+          "que un módulo sea liberal en lo que acepta y conservador en lo que envía",
+          "que un módulo invoque elementos de módulos cercanos",
+          "que un módulo sea conservador en lo que acepta y liberal en lo que envía",
+          "que se puedan encadenar invocaciones a métodos"
+        ],
+        "answer": 1,
+        "explanation": "que un módulo invoque elementos de módulos cercanos"
+      },
+      {
+        "question": "La variante laxa del estilo de capas",
+        "options": [
+          "Indica que la capa N puede acceder a elementos de las capas 1 a N - 1",
+          "Indica que la capa N puede utilizar elementos de la capa N - 1",
+          "Indica que la capa N puede utilizar elementos de la capa N + 1",
+          "Indica que la capa 1 puede utilizar elementos de la capa 2 a N"
+        ],
+        "answer": 0,
+        "explanation": "Indica que la capa N puede acceder a elementos de las capas 1 a N - 1"
+      },
+      {
+        "question": "Un ejemplo de \"crosscutting concern\" es",
+        "options": [
+          "Un módulo abstracto",
+          "Un módulo concreto",
+          "Logging",
+          "Un naked object"
+        ],
+        "answer": 2,
+        "explanation": "Logging"
+      },
+      {
+        "question": "En Domain Driven Design se pone gran énfasis en identificar",
+        "options": [
+          "Crosscutting concerns",
+          "Un lenguaje ubicuo entre expertos de dominio y desarrolladores",
+          "Naked objects",
+          "Modelos de persistencia para los diferentes dominios"
+        ],
+        "answer": 1,
+        "explanation": "Un lenguaje ubicuo entre expertos de dominio y desarrolladores"
+      },
+      {
+        "question": "Una restricción en Domain Driven Design es",
+        "options": [
+          "Que LCOM sea alto",
+          "Que los Objetos valor sean inmutables",
+          "Que los aspectos capturen crosscutting concerns",
+          "Que el modelo de dominio sea independiente del sistema de persistencia"
+        ],
+        "answer": 1,
+        "explanation": "Que los Objetos valor sean inmutables"
+      },
+      {
+        "question": "¿Cuál de los siguientes estilos son similares?",
+        "options": [
+          "Estilo hexagonal y arquitectura limpia",
+          "Estilo hexagonal y naked objects",
+          "Arquitectura limpia y programación orientada a aspectos",
+          "Arquitectura limpia y estilos centrados en datos"
+        ],
+        "answer": 0,
+        "explanation": "Estilo hexagonal y arquitectura limpia"
+      },
+      {
+        "question": "En la propuesta naked objects",
+        "options": [
+          "Se utilizan lenguajes basados en prototipos en lugar de clases",
+          "Se utilizan POJOs para modelar el sistema de persistencia",
+          "Se utilizan objetos que modelan el interfaz de usuario",
+          "La aplicación se genera automáticamente a partir de objetos de dominio"
+        ],
+        "answer": 3,
+        "explanation": "La aplicación se genera automáticamente a partir de objetos de dominio"
+      },
+      {
+        "question": "En el estilo hexagonal",
+        "options": [
+          "La base de datos y frameworks son el núcleo del sistema",
+          "La base de datos y frameworks están en el exterior",
+          "La base de datos está en el exterior y los frameworks en el interio",
+          "Los frameworks están en el exterior y la base de datos en el interior"
+        ],
+        "answer": 1,
+        "explanation": "La base de datos y frameworks están en el exterior"
+      }
+    ]
+  },
+  {
+    "topic": "06: Comportamiento (Parte I)",
+    "questions": [
+      {
+        "question": "Una ventaja del estilo batch es",
+        "options": [
+          "Bajo acoplamiento",
+          "Alto acoplamiento",
+          "Concurrencia",
+          "Baja latencia"
+        ],
+        "answer": 0,
+        "explanation": "Bajo acoplamiento"
+      },
+      {
+        "question": "En el estilo pipes and filters",
+        "options": [
+          "se admite la ejecución concurrente de filtros",
+          "se facilita la interactividad",
+          "es difícil la testabilidad independiente de los filtros",
+          "no se pueden sustituir unos filtros por otros"
+        ],
+        "answer": 0,
+        "explanation": "se admite la ejecución concurrente de filtros"
+      },
+      {
+        "question": "Backpressure ocurre cuando",
+        "options": [
+          "el estilo MVC permite interacción entre usuarios",
+          "una fuente de conocimiento va calculando resultados parciales",
+          "los consumidores reciben más datos de los que pueden procesar",
+          "los consumidores deben solicitar datos a los productores"
+        ],
+        "answer": 2,
+        "explanation": "los consumidores reciben más datos de los que pueden procesar"
+      },
+      {
+        "question": "¿Cuál es una de las ventajas de pipes and filters con interfaz uniforme?",
+        "options": [
+          "Rendimiento",
+          "Reconfigurabilidad",
+          "Interactividad",
+          "Dependencia entre filtros"
+        ],
+        "answer": 1,
+        "explanation": "Reconfigurabilidad"
+      },
+      {
+        "question": "Uno de los beneficios de Master-slave es",
+        "options": [
+          "Interactividad",
+          "Coordinación entre nodos máster",
+          "Computación paralela",
+          "Independencia del nodo máster"
+        ],
+        "answer": 2,
+        "explanation": "Computación paralela"
+      },
+      {
+        "question": "Una ventaja de MVC",
+        "options": [
+          "Acoplación entre controladores y vistas",
+          "Simplicidad",
+          "Uniformidad al mostrar una única vista para cada modelo",
+          "Facilidad para crear nuevas vistas y controladores"
+        ],
+        "answer": 3,
+        "explanation": "Facilidad para crear nuevas vistas y controladores"
+      },
+      {
+        "question": "En PAC",
+        "options": [
+          "Se utiliza una jerarquía de agentes",
+          "Los agentes son controlados por el máster",
+          "Varios agentes aportan soluciones parciales al problema",
+          "No hay comunicación entre los agentes"
+        ],
+        "answer": 0,
+        "explanation": "Se utiliza una jerarquía de agentes"
+      },
+      {
+        "question": "¿Cuál puede ser un reto a resolver en el estilo Datos compartidos?",
+        "options": [
+          "Dependencia entre los componentes",
+          "Punto de fallo único",
+          "Inconsistencia de los datos",
+          "Falta de estado global"
+        ],
+        "answer": 1,
+        "explanation": "Punto de fallo único"
+      },
+      {
+        "question": "En el estilo Blackboard se utilizan",
+        "options": [
+          "agentes móviles que se desplazan de una máquina a otra",
+          "agentes que se encargan de las diferentes partes del interfaz",
+          "fuentes de conocimiento que resuelven parcialmente un problema",
+          "tuberías y filtros (pipes and filters)"
+        ],
+        "answer": 1,
+        "explanation": "agentes que se encargan de las diferentes partes del interfaz"
+      },
+      {
+        "question": "Una de las ventajas de los sistemas basados en reglas es",
+        "options": [
+          "El rendimiento",
+          "La depuración",
+          "La posibilidad de expresar algoritmos de forma imperativa",
+          "La utilización de conocimiento declarativo de expertos de dominio"
+        ],
+        "answer": 3,
+        "explanation": "La utilización de conocimiento declarativo de expertos de dominio"
+      },
+      {
+        "question": "Una restricción del estilo cliente-servidor es",
+        "options": [
+          "Los clientes pueden depender de otros clientes",
+          "Los clientes y el servidor no se comunican entre sí",
+          "Los clientes se comunican con el servidor, no al revés",
+          "Los servidores se comunican con el cliente, no al revés"
+        ],
+        "answer": 2,
+        "explanation": "Los clientes se comunican con el servidor, no al revés"
+      },
+      {
+        "question": "En la variante cliente-servidor sin estado",
+        "options": [
+          "Ante la misma petición se devuelve siempre la misma respuesta",
+          "Se pueden crear múltiples servidores replicados",
+          "El cliente no almacena ningún estado de la aplicación",
+          "La respuesta del servidor depende del cliente"
+        ],
+        "answer": 0,
+        "explanation": "Ante la misma petición se devuelve siempre la misma respuesta"
+      },
+      {
+        "question": "En Event-driven architecture",
+        "options": [
+          "Un evento es algo que sucederá en el futuro",
+          "Un evento es algo que ha sucedido",
+          "Los eventos son invocaciones síncronas",
+          "Los consumidores de eventos esperan que los productores envíen eventos"
+        ],
+        "answer": 1,
+        "explanation": "Un evento es algo que ha sucedido"
+      },
+      {
+        "question": "Publish-subscribe es una variante de",
+        "options": [
+          "Sistemas Batch",
+          "Pipes and filters",
+          "Modelos basados en datos compartidos",
+          "Modelos basados en eventos"
+        ],
+        "answer": 3,
+        "explanation": "Modelos basados en eventos"
+      },
+      {
+        "question": "Una ventaja de los modelos de actores es",
+        "options": [
+          "Coordinación entre actores",
+          "Consistencia",
+          "Interactividad",
+          "Paralelismo"
+        ],
+        "answer": 3,
+        "explanation": "Paralelismo"
+      },
+      {
+        "question": "CQRS separa el interfaz en",
+        "options": [
+          "comandos que realizan acciones y consultas que escriben datos",
+          "comandos que realizan acciones y consultas que leen datos",
+          "peticiones y respuestas",
+          "modelos, vistas y controladores"
+        ],
+        "answer": 1,
+        "explanation": "comandos que realizan acciones y consultas que leen datos"
+      },
+      {
+        "question": "Event sourcing captura los cambios de estado mediante",
+        "options": [
+          "comandos y consultas",
+          "bases de datos compartidas",
+          "actualizaciones de las fuentes de los eventos",
+          "eventos inmutables"
+        ],
+        "answer": 3,
+        "explanation": "eventos inmutables"
+      },
+      {
+        "question": "Una ventaja de Event sourcing es que",
+        "options": [
+          "La base de datos es de lectura y escritura",
+          "El tamaño de los datos almacenados no crece con el tiempo",
+          "Si aparecen errores se puede reconstruir la Base de datos",
+          "La base de datos contiene el estado actual del sistema"
+        ],
+        "answer": 2,
+        "explanation": "Si aparecen errores se puede reconstruir la Base de datos"
+      },
+      {
+        "question": "Una ventaja de utilizar Plugins es",
+        "options": [
+          "La adaptación del sistema a recursos impredecibles en el futuro",
+          "La seguridad",
+          "El rendimiento",
+          "La consistencia"
+        ],
+        "answer": 0,
+        "explanation": "La adaptación del sistema a recursos impredecibles en el futuro"
+      },
+      {
+        "question": "Un problema del estilo Microkernel es",
+        "options": [
+          "Portabilidad",
+          "Punto de fallo único",
+          "Fiabilidad",
+          "Extensibilidad"
+        ],
+        "answer": 1,
+        "explanation": "Punto de fallo único"
+      },
+      {
+        "question": "Reflection permite",
+        "options": [
+          "Realizar cambios al sistema sin detener la ejecución",
+          "Crear código inteligente que reflexiona sobre sus propias capacidades",
+          "usar fuentes de conocimiento independientes que contribuyen a la solución",
+          "Aumentar el rendimiento del sistema"
+        ],
+        "answer": 0,
+        "explanation": "Realizar cambios al sistema sin detener la ejecución"
+      },
+      {
+        "question": "¿Cuál de las siguientes NO es una ventaja de los DSLs?",
+        "options": [
+          "Flexibilidad",
+          "Usabilidad",
+          "Rendimiento",
+          "Adaptabilidad"
+        ],
+        "answer": 2,
+        "explanation": "Rendimiento"
+      },
+      {
+        "question": "Código móvil",
+        "options": [
+          "Es código que se modifica a sí mismo",
+          "Es código que se transfiere de una máquina a otra para que lo ejecute",
+          "Es una variante de CQRS",
+          "Es el código que se ejecuta en dispositivos móviles"
+        ],
+        "answer": 1,
+        "explanation": "Es código que se transfiere de una máquina a otra para que lo ejecute"
+      },
+      {
+        "question": "Habitualmente, código bajo demanda",
+        "options": [
+          "se utiliza para Event sourcing",
+          "requiere de un lenguaje de programación anfitrión",
+          "es código que se transmite del cliente al servidor",
+          "es código que se transmite del servidor al cliente"
+        ],
+        "answer": 3,
+        "explanation": "es código que se transmite del servidor al cliente"
+      },
+      {
+        "question": "Los agentes móviles consisten en",
+        "options": [
+          "código y datos que se envía de una máquina a otra para su ejecución",
+          "aplicaciones que producen eventos",
+          "plugins que son incoporados en arquitecturas microkernel",
+          "lenguajes de dominio específico utilizados en aplicaciones de seguridad"
+        ],
+        "answer": 0,
+        "explanation": "código y datos que se envía de una máquina a otra para su ejecución"
+      }
+    ]
+  },
+  {
+    "topic": "07: Comportamiento (Parte II)",
+    "questions": [
+      {
+        "question": "¿Cuál de las siguientes NO es una falacia de la computación distribuida?",
+        "options": [
+          "La red es fiable",
+          "La red es segura",
+          "El coste del transporte es cero",
+          "La invocación a un procedimiento remoto puede pasar parámetros"
+        ],
+        "answer": 3,
+        "explanation": "La invocación a un procedimiento remoto puede pasar parámetros"
+      },
+      {
+        "question": "Hub and spoke",
+        "options": [
+          "es una topología de mensajería con un bróker central",
+          "permite la utilización de múltiples brókers centrales",
+          "es una variante de MVC",
+          "permite integrar sistemas mediante RPC"
+        ],
+        "answer": 0,
+        "explanation": "es una topología de mensajería con un bróker central"
+      },
+      {
+        "question": "Una consecuencia del patrón Bróker es",
+        "options": [
+          "Mejora del rendimiento",
+          "Bajo acoplamiento entre los sistemas",
+          "Evita el single point of failure",
+          "Separación de incumbencias"
+        ],
+        "answer": 3,
+        "explanation": "Separación de incumbencias"
+      },
+      {
+        "question": "Una consecuencia de Peer-to-peer es",
+        "options": [
+          "Facilita la gestión del estado global del sistema",
+          "Facilita la seguridad",
+          "Evita el single point of failure",
+          "Mejorar el ancho de banda y la latencia"
+        ],
+        "answer": 2,
+        "explanation": "Evita el single point of failure"
+      },
+      {
+        "question": "¿Cuál de las siguientes NO es una ventaja de SOA?",
+        "options": [
+          "Acoplamiento débil",
+          "Interoperabilidad",
+          "Seguridad",
+          "Independencia de lenguaje"
+        ],
+        "answer": 2,
+        "explanation": "Seguridad"
+      },
+      {
+        "question": "En WS-*",
+        "options": [
+          "WSDL contiene el cuerpo del mensaje en XML",
+          "SOAP contiene la descripción del mensaje",
+          "Se proponía SOAP como páginas amarillas de servicios web",
+          "Se proponía UDDI como páginas amarillas para publicar servicios web"
+        ],
+        "answer": 3,
+        "explanation": "Se proponía UDDI como páginas amarillas para publicar servicios web"
+      },
+      {
+        "question": "En REST, la operación DELETE",
+        "options": [
+          "Es idempotente y segura",
+          "Es idempotente pero no segura",
+          "No es idempotente pero sí segura",
+          "No es ni idempotente ni segura"
+        ],
+        "answer": 1,
+        "explanation": "Es idempotente pero no segura"
+      },
+      {
+        "question": "HATEOAS",
+        "options": [
+          "Impide el uso de cliente servidor sin estado",
+          "Permite mejorar el tamaño de las respuestas",
+          "Se utiliza para analizar la seguridad de aplicaciones Big Data",
+          "Incluye URIs en respuestas con más opciones del estado de la aplicación"
+        ],
+        "answer": 3,
+        "explanation": "Incluye URIs en respuestas con más opciones del estado de la aplicación"
+      },
+      {
+        "question": "En las arquitecturas basadas en servicios",
+        "options": [
+          "Existen varios frameworks disponibles para facilitar el time-to-market",
+          "mejora la evolución de los servicios mediante diferentes bases de datos",
+          "Se facilita la escalabilidad al estar descentralizadas",
+          "Se realiza el despliegue de todos los servicios a la vez"
+        ],
+        "answer": 0,
+        "explanation": "Existen varios frameworks disponibles para facilitar el time-to-market"
+      },
+      {
+        "question": "En la propuesta de microservicios",
+        "options": [
+          "Los microservicios son aplicaciones diferentes",
+          "Cada microservicio gestiona su propia base de datos",
+          "Todos los microservicios de despliegan a la vez",
+          "Los microservicios están enfocados a realizar múltiples tareas"
+        ],
+        "answer": 1,
+        "explanation": "Cada microservicio gestiona su propia base de datos"
+      },
+      {
+        "question": "Un microservicio trabaja",
+        "options": [
+          "con un dominio acotado",
+          "con la misma escalabilidad que el resto de aplicaciones del sistema",
+          "coordinándose con otros microservicios mediante base de datos compartida",
+          "de forma coordinada mediante un orquestador de servicios"
+        ],
+        "answer": 0,
+        "explanation": "con un dominio acotado"
+      },
+      {
+        "question": "El deterioro estructural de microservicios puede aparecer al utilizar",
+        "options": [
+          "servicios muy desacoplados",
+          "diferentes lenguajes y bases de datos para cada microservicio",
+          "servicios con diferentes niveles de escalabilidad",
+          "demasiadas librerías compartidas entre microservicios"
+        ],
+        "answer": 3,
+        "explanation": "demasiadas librerías compartidas entre microservicios"
+      },
+      {
+        "question": "En la propuesta Serverless",
+        "options": [
+          "se evita el vendor-lock-in",
+          "los clientes actúan como servidores",
+          "se persigue escalabilidad automática",
+          "se utilizan sistemas descentralizados sin servidores"
+        ],
+        "answer": 2,
+        "explanation": "se persigue escalabilidad automática"
+      },
+      {
+        "question": "¿Cuál de las siguientes NO son ventajas de Serverless?",
+        "options": [
+          "Vendor lock-in",
+          "Escalabilidad",
+          "Disponibilidad",
+          "Time-to-market"
+        ],
+        "answer": 0,
+        "explanation": "Vendor lock-in"
+      },
+      {
+        "question": "Los tipos de la función map y reduce en MapReduce son:",
+        "options": [
+          "map: (K1,V1) => [(K2, V2)] reduce: (K2,V2) => (K2,[V2])",
+          "map: [(K1,V1)] => [(K2, V2)] reduce: [(K2,V2)] => [(K3,V3)]",
+          "map: (K1,V1) => [(K2, V2)] reduce: (K2,[V2]) => (K2,V2)",
+          "map: (K1,V1) => (K2, V2) reduce: (K2,V2) => (K3,V3)"
+        ],
+        "answer": 2,
+        "explanation": "map: (K1,V1) => [(K2, V2)] reduce: (K2,[V2]) => (K2,V2)"
+      },
+      {
+        "question": "MapReduce",
+        "options": [
+          "facilita el análisis en tiempo real de los datos",
+          "utiliza un sistema de ficheros distribuido con replicación",
+          "utiliza el modelo Read-once, Write Many",
+          "permite que cada nodo master ejecute las funciones map y reduce"
+        ],
+        "answer": 1,
+        "explanation": "utiliza un sistema de ficheros distribuido con replicación"
+      },
+      {
+        "question": "La arquitectura Lambda",
+        "options": [
+          "utiliza vistas para modificar los datos de entrada",
+          "Tiene una \"serving layer\" que genera vistas en tiempo real",
+          "permite procesar big data en tiempo real",
+          "permite que cada nodo master ejecute las funciones map y reduce"
+        ],
+        "answer": 2,
+        "explanation": "permite procesar big data en tiempo real"
+      },
+      {
+        "question": "En la arquitectura lambda, la serving layer",
+        "options": [
+          "se utiliza para los datos del servidor",
+          "Se utiliza para realizar re-computaciones de datos batch",
+          "se utiliza para mostrar incrementos de los datos en tiempo real",
+          "combina las vistas en tiempo real con las vistas precomputadas batch"
+        ],
+        "answer": 3,
+        "explanation": "combina las vistas en tiempo real con las vistas precomputadas batch"
+      },
+      {
+        "question": "La arquitectura Kappa utiliza",
+        "options": [
+          "un log distribuido y replicado como almacenamiento de eventos",
+          "un log de eventos que pueden modificarse durante la ejecución",
+          "tres capas: batch, serving y speed",
+          "una capa batch para almacenar los logs distribuidos"
+        ],
+        "answer": 0,
+        "explanation": "un log distribuido y replicado como almacenamiento de eventos"
+      },
+      {
+        "question": "En la arquitectura Kappa",
+        "options": [
+          "se utiliza un log de eventos de solo lectura",
+          "se favorece la consistencia del estado sobre la escalabilidad",
+          "un reto son requisitos de espacio al duplicarse el log y la base de datos",
+          "los eventos son actualizados mediante recomputaciones"
+        ],
+        "answer": 2,
+        "explanation": "un reto son requisitos de espacio al duplicarse el log y la base de datos"
+      },
+      {
+        "question": "Una ventaja de la coordinación mediante transferencia de ficheros es",
+        "options": [
+          "Automatización",
+          "Bajo acoplamiento porque productor y consumidor pueden ser independientes",
+          "Consistencia puesto que siempre se trabaja con la misma versión",
+          "Bajo acoplamiento porque puede utilizarse cualquier formato"
+        ],
+        "answer": 1,
+        "explanation": "Bajo acoplamiento porque productor y consumidor pueden ser independientes"
+      },
+      {
+        "question": "ETL",
+        "options": [
+          "Consiste en 3 fases: extracción, transformación y carga",
+          "Es el \"Extended Transmission Log\" de la arquitectura Kappa",
+          "Se utiliza para mejorar el rendimiento en tiempo real de mapReduce",
+          "Es equivalente a RPC"
+        ],
+        "answer": 0,
+        "explanation": "Consiste en 3 fases: extracción, transformación y carga"
+      },
+      {
+        "question": "En la coordinación mediante Mensajería",
+        "options": [
+          "se utilizan sistemas ETL para la sincronización",
+          "suele implicar un alto acoplamiento",
+          "se suele utilizar comunicación síncrona",
+          "se suele utilizar comunicación asíncrona"
+        ],
+        "answer": 3,
+        "explanation": "se suele utilizar comunicación asíncrona"
+      },
+      {
+        "question": "La escalabilidad en aplicaciones microservicios puede conseguirse mediante",
+        "options": [
+          "la aplicación de la Ley de Conwayñ",
+          "replicación de base de datos en los servidores bajo demanda",
+          "replicación de la aplicación en servidores bajo demanda",
+          "distribución de microservicios en servidores y replicación bajo demanda"
+        ],
+        "answer": 3,
+        "explanation": "distribución de microservicios en servidores y replicación bajo demanda"
+      },
+      {
+        "question": "Una variante de peer-to-peer es",
+        "options": [
+          "El uso de super-peers",
+          "MapReduce",
+          "Arquitectura Lambda",
+          "Arquitectura Kappa"
+        ],
+        "answer": 0,
+        "explanation": "El uso de super-peers"
+      } 
+    ]
+  },
+  {
+    "topic": "08: Disposición",
+    "questions": [
+      {
+        "question": "Cuando la computación se realiza \"on premises\"",
+        "options": [
+          "Se pierde el control del hardware",
+          "Se realiza menos inversión inicial",
+          "Es necesario invertir en hardware, licencias, espacios, etc.",
+          "Hay más dependencia de los proveedores en la nube"
+        ],
+        "answer": 2,
+        "explanation": "Es necesario invertir en hardware, licencias, espacios, etc."
+      },
+      {
+        "question": "En un diagrama de despliegue",
+        "options": [
+          "Se asocian artefactos a cajas que representan nodos computacionales",
+          "Se representan jerarquías de clases junto con sus interacciones",
+          "Se describen los casos de uso que serán desplegados",
+          "Se presenta la secuencia de interacción entre actores"
+        ],
+        "answer": 0,
+        "explanation": "Se asocian artefactos a cajas que representan nodos computacionales"
+      },
+      {
+        "question": "Cuando la computación se realiza en la nube",
+        "options": [
+          "Se requieren habilidades de administración de sistemas",
+          "Se facilita el acceso a hardware caro",
+          "Se garantizan unos costes fijos",
+          "Se requiere una mayor versión inicial"
+        ],
+        "answer": 1,
+        "explanation": "Se facilita el acceso a hardware caro"
+      },
+      {
+        "question": "La metáfora \"pets vs cattle\"",
+        "options": [
+          "Identifica a los servidores tradicionales como ganado",
+          "Identifica a los servidores tradicionales con mascotas",
+          "Identifica a los clusters de servidores como mascotas",
+          "Describe a los servidores tradicionales como deshechables"
+        ],
+        "answer": 1,
+        "explanation": "Identifica a los servidores tradicionales con mascotas"
+      },
+      {
+        "question": "Edge computing",
+        "options": [
+          "Equivale a la computación on premises",
+          "Consiste en computaciones de gran riesgo",
+          "Pretende mejorar la latencia y el ancho de banda",
+          "Mejora acceso a grandes datos con acceso directo al servidor"
+        ],
+        "answer": 2,
+        "explanation": "Pretende mejorar la latencia y el ancho de banda"
+      },
+      {
+        "question": "Los multi-armed bandits",
+        "options": [
+          "se utilizan para la configuración automática de contenedores",
+          "son pruebas de carga realizadas mediante múltiples ataques",
+          "consisten en dividir los usuarios en grupos fijos",
+          "ajustan dinámicamente el tráfico para favorecer buenas alternativas"
+        ],
+        "answer": 3,
+        "explanation": "ajustan dinámicamente el tráfico para favorecer buenas alternativas"
+      },
+      {
+        "question": "¿Cuál de los siguientes sistemas puede utilizarse para realizar pruebas de carga?",
+        "options": [
+          "Gatling",
+          "Canary tests",
+          "Feature toggle",
+          "Los balanceadores de carga"
+        ],
+        "answer": 0,
+        "explanation": "Gatling"
+      },
+      {
+        "question": "¿Cuál de las siguientes frases es verdadera?",
+        "options": [
+          "El tiempo de arranque es menor con máquinas virtuales que con contenedores",
+          "Docker se basa en el aislamiento de procesos a nivel de kernel",
+          "Con máquinas virtuales se puede reutilizar el sistema operativo",
+          "Con contenedores , los servidores no están aislados"
+        ],
+        "answer": 1,
+        "explanation": "Docker se basa en el aislamiento de procesos a nivel de kernel"
+      },
+      {
+        "question": "La arquitectura de alto nivel de docker",
+        "options": [
+          "Utiliza un dockerd como cliente",
+          "Utiliza docker hub como cliente",
+          "Se basa en cliente-servidor",
+          "Utiliza dockerd como registro de imágenes"
+        ],
+        "answer": 2,
+        "explanation": "Se basa en cliente-servidor"
+      },
+      {
+        "question": "Una imagen docker es",
+        "options": [
+          "Un proceso que escucha peticiones para crear contenedores",
+          "Una plantilla de solo lectura con instrucciones para crear 1 contenedor",
+          "Un registro donde se almacenan contenedores",
+          "Un emulador del sistema operativo"
+        ],
+        "answer": 1,
+        "explanation": "una plantilla de solo lectura con instrucciones para crear 1 contenedor"
+      },
+      {
+        "question": "El modelo de capas de docker",
+        "options": [
+          "Permite crear imágenes a partir de otras imágenes",
+          "Permite crear un dockerd a partir de una imagen",
+          "Permite que los contenedores estén aislados",
+          "Permite utilizar contenedores inmutables"
+        ],
+        "answer": 0,
+        "explanation": "Permite crear imágenes a partir de otras imágenes"
+      },
+      {
+        "question": "El concepto de infraestructura inmutable permite",
+        "options": [
+          "ir actualizando una infraestructura a partir de una imagen base",
+          "utilizar un GUI para gestionar la infraestructura",
+          "describir los estados deseados de una infraestructura en imágenes",
+          "utilizar una línea de comandos para gestionar la infraestructura"
+        ],
+        "answer": 2,
+        "explanation": "describir los estados deseados de una infraestructura en imágenes"
+      },
+      {
+        "question": "Una ventaja de utilizar contenedores es",
+        "options": [
+          "Rendimiento",
+          "Orquestación",
+          "Independencia de la plantaforma",
+          "Facilidades para persistencia"
+        ],
+        "answer": 0,
+        "explanation": "Rendimiento"
+      },
+      {
+        "question": "¿Cuál de las siguientes frases es verdadera?",
+        "options": [
+          "Docker-compose se utiliza habitualmente en múltiples hosts",
+          "Docker Swarm es una solución desarrollada inicialmente por Google",
+          "Kubernetes utiliza pods de SOLID para los despliegues",
+          "Kubernetes puede utilizarse para la orquestación de contenedores"
+        ],
+        "answer": 3,
+        "explanation": "Kubernetes puede utilizarse para la orquestación de contenedores"
+      },
+      {
+        "question": "El concepto de \"deployment pipeline\" promueve",
+        "options": [
+          "utilizar devops para desplegar los sistemas cuando se lo pidamos",
+          "la automatización de las tareas de construcción, despliegue, pruebas, etc.",
+          "el círculo vicioso del despliegue manual",
+          "hacer una fiesta cada vez que se despliegue una nueva versión"
+        ],
+        "answer": 1,
+        "explanation": "la automatización de las tareas de construcción, despliegue, pruebas, etc."
+      },
+      {
+        "question": "Un lema del \"continuous deployment\" es",
+        "options": [
+          "\"Todo está funcionando\" es una anomalía",
+          "Si duele, hazlo más frecuentemente",
+          "Añadir más personas a un proyecto retrasado hace que se retrase más",
+          "Let it crash"
+        ],
+        "answer": 1,
+        "explanation": "Si duele, hazlo más frecuentemente"
+      },
+      {
+        "question": "El patrón timeout añade un limitador temporal a",
+        "options": [
+          "las peticiones para evitar que se reintenten",
+          "las peticiones de los servidores a otros servidores",
+          "los servidores para dejar de atender peticiones pesadas",
+          "las peticiones para detenerlas y, a veces, reintentarlas"
+        ],
+        "answer": 3,
+        "explanation": "las peticiones para detenerlas y, a veces, reintentarlas"
+      },
+      {
+        "question": "En el patrón cirtuit breaker, cuando se producen...",
+        "options": [
+          "demasiados errores se deja de atender peticiones x tiempo",
+          "peticiones se cierra el circuito y no se devuelven respuestas",
+          "fallos se pasa a modo cerrado",
+          "peticiones se realiza un control de tiempo"
+        ],
+        "answer": 0,
+        "explanation": "demasiados errores se deja de atender peticiones x tiempo"
+      },
+      {
+        "question": "Con el patrón bulkhead se pretende",
+        "options": [
+          "evitar los errores mediante controles temporales",
+          "seguir el funcionamiento aunque una parte falle",
+          "detener el sistema cuando se produzcan errores",
+          "crear backpressure a los sistemas saturados"
+        ],
+        "answer": 1,
+        "explanation": "seguir el funcionamiento aunque una parte falle"
+      },
+      {
+        "question": "Una solución basada en \"steady state\" o estado estacionario es",
+        "options": [
+          "Utilizar un monitor que limite las peticiones que ocupan mucho tiempo",
+          "Aplicar backpressure a las peticiones",
+          "Limpiar recursos del sistema automáticamente",
+          "Crear una réplica del servidor"
+        ],
+        "answer": 2,
+        "explanation": "Limpiar recursos del sistema automáticamente"
+      },
+      {
+        "question": "El patrón \"Fail fast\" promueve chequear",
+        "options": [
+          "que las peticiones no esperan más tiempo del indicado",
+          "que recursos necesarios estén disponibles para no realizar trabajo inútil",
+          "que el sistema deja de funcionar cuando se produzca el primer error",
+          "que las peticiones se respondan por el servidor con menor carga"
+        ],
+        "answer": 1,
+        "explanation": "que recursos necesarios estén disponibles para no realizar trabajo inútil"
+      },
+      {
+        "question": "Alguna de las condiciones para que se pueda aplicar el patrón \"Let it crash\" es",
+        "options": [
+          "Que los componentes puedan sustituirse rápidamente por otros",
+          "Que los componentes sean tolerantes a fallos",
+          "Utilizar sistemas de control de excepciones para programar defensivamente",
+          "Acordar los recursos necesarios antes de comenzar"
+        ],
+        "answer": 0,
+        "explanation": "Que los componentes puedan sustituirse rápidamente por otros"
+      },
+      {
+        "question": "El patrón Handshaking",
+        "options": [
+          "regula las peticiones a procesar ralentizando los productores",
+          "consiste en utilizar orquestadores de contenedores",
+          "Permite realizar un control cooperativo de las demandas computacionales",
+          "Se utiliza para que los componentes puedan ser sustituidos fácilmente"
+        ],
+        "answer": 2,
+        "explanation": "Permite realizar un control cooperativo de las demandas computacionales"
+      },
+      {
+        "question": "¿Cuál de las siguientes NO es una estrategia para backpressure?",
+        "options": [
+          "Balanceo de carga",
+          "Ralentizar los productores",
+          "Utilizar búffers para acumular temporalmente datos de entrada",
+          "Ignorar algunas peticiones"
+        ],
+        "answer": 0,
+        "explanation": "Balanceo de carga"
+      },
+      {
+        "question": "En el patrón Governor se puede",
+        "options": [
+          "Aumentar la resistencia ante acciones humanas poco seguras",
+          "automatizar acciones humanas para aumentar velocidad",
+          "Utilizarse para aumentar el rendimiento de acciones automatizables",
+          "ralentizar velocidad de acciones automatizadas para permitir acción humana"
+        ],
+        "answer": 3,
+        "explanation": "ralentizar velocidad de acciones automatizadas para permitir acción humana"
+      },
+      {
+        "question": "Las propuestas de Ingeniería del caos",
+        "options": [
+          "crean sistemas inseguros que deben ser refactorizados",
+          "introducen fallos en un sistema a propósito para probar resiliencia",
+          "son antipatrones creados a partir del uso de máquinas virtuales",
+          "son antipatrones que utilizaban una mala gestión de incidencias"
+        ],
+        "answer": 1,
+        "explanation": "introducen fallos en un sistema a propósito para probar resiliencia"
+      },
+      {
+        "question": "Un \"canary release\" consiste en",
+        "options": [
+          "introducir fallos a propósito para comprobar la resiliencia",
+          "introducir nuevas releases progresivamente a subconjuntos de usuarios",
+          "utilizar limitadores temporales de las peticiones",
+          "una release que se muestra a los usuarios beta"
+        ],
+        "answer": 1,
+        "explanation": "ntroducir nuevas releases progresivamente a subconjuntos de usuarios"
+      },
+      {
+        "question": "El uso de \"Feature toggles\" permite",
+        "options": [
+          "modificar comportamiento del sistema sin cambiar código",
+          "modificar el código del sistema sin cambiar el comportamiento",
+          "crear sistemas que eviten características no probadas en producción",
+          "crear componentes con errores a propósito para mejorar resiliencia"
+        ],
+        "answer": 0,
+        "explanation": "modificar comportamiento del sistema sin cambiar código"
+      }
+    ]
+  }, 
+  {
+    "topic": "09: Empresa",
+    "questions": [
+      {
+        "question": "¿Cuál de las siguientes es una expectativa sobre un arquitecto de software?",
+        "options": [
+          "Definir la estrategia empresarial",
+          "Comprender y navegar la política empresarial",
+          "Revisar y aprobar todas las Pull-requests",
+          "Definir la arquitectura correcta al comienzo para que no se revise"
+        ],
+        "answer": 1,
+        "explanation": "Comprender y navegar la política empresarial"
+      },
+      {
+        "question": "¿Cuál de los siguientes NO forma parte del rol del arquitecto de software?",
+        "options": [
+          "Crear estrategia técnica, visión y hoja de ruta",
+          "Definir la estrategia empresarial y de negocio",
+          "Identificar, mitigar y apropiarse de riesgos técnicos",
+          "Comprender objetivos, capturar requisitos y restricciones"
+        ],
+        "answer": 1,
+        "explanation": "Definir la estrategia empresarial y de negocio"
+      },
+      {
+        "question": "En las compañías basadas en producto en dominios diferentes del software",
+        "options": [
+          "Se produce un compromiso entre departamento IT interno o outsourcing",
+          "Se proporcionan servicios de consultoría a otras empresas",
+          "la inversión suele ser realizada por business angels o capital riesgo",
+          "El software es lo más importante de la empresa"
+        ],
+        "answer": 0,
+        "explanation": "Se produce un compromiso entre departamento IT interno o outsourcing"
+      },
+      {
+        "question": "Un arquitecto empresarial",
+        "options": [
+          "Realiza los planos de los edificios de la empresa",
+          "Realiza los planos de los edificios de la empresa",
+          "da soporte a la estrategia de negocio y soluciones TI",
+          "Se enfoca en proyectos software con conocimiento profundo de tecnología"
+        ],
+        "answer": 2,
+        "explanation": "da soporte a la estrategia de negocio y soluciones TI"
+      },
+      {
+        "question": "El marco Zachman",
+        "options": [
+          "Es un técnica para refactorizar software",
+          "Representa una serie de expectativas sobre una tecnología en el tiempo",
+          "Es una técnica de arquitectura empresarial basada en un modelo",
+          "Se utiliza para analizar el comportamiento de repositorios de código"
+        ],
+        "answer": 2,
+        "explanation": "Es una técnica de arquitectura empresarial basada en un modelo"
+      },
+      {
+        "question": "TOGAF",
+        "options": [
+          "Es un ejemplo de SCM",
+          "Es un sistema ERP",
+          "Es una propuesta de arquitectura empresarial realizada por John Zachman",
+          "Es un marco y metodología de arquitecturas empresariales"
+        ],
+        "answer": 3,
+        "explanation": "Es un marco y metodología de arquitecturas empresariales"
+      },
+      {
+        "question": "La parte superior de la curva en las representaciones de Gartner",
+        "options": [
+          "Es el pico de expectativas sobredimensionadas",
+          "Es el momento en el que un sistema es más útil",
+          "Indica el número máximo de compradores de un sistema",
+          "Indica el número de pérdidas de un sistema"
+        ],
+        "answer": 0,
+        "explanation": "Es el pico de expectativas sobredimensionadas"
+      },
+      {
+        "question": "Una posible ventaja de adoptar ERP para una empresa",
+        "options": [
+          "Independencia de un vendedor",
+          "Sencillez de la implantación",
+          "Calidad y eficiencia utilizando mejores prácticas",
+          "Facilidad para adaptar los procesos existentes"
+        ],
+        "answer": 2,
+        "explanation": "Calidad y eficiencia utilizando mejores prácticas"
+      },
+      {
+        "question": "ABAP",
+        "options": [
+          "Es un marco de descripción de arquitecturas empresariales",
+          "Es un lenguaje de dominio específico utilizado en SAP",
+          "Es un ejemplo de SCM",
+          "Es un lenguaje para aplicaciones Serverless diseñado por Amazon"
+        ],
+        "answer": 1,
+        "explanation": "Es un lenguaje de dominio específico utilizado en SAP"
+      },
+      {
+        "question": "El software que gestiona los call centers se enmarca en la categoría",
+        "options": [
+          "CRM",
+          "ERP",
+          "SCM",
+          "WMS"
+        ],
+        "answer": 0,
+        "explanation": "CRM"
+      },
+      {
+        "question": "¿Qué tipo de software puede utilizarse para control del inventario?",
+        "options": [
+          "SCM",
+          "CRM",
+          "EAI",
+          "PLM"
+        ],
+        "answer": 0,
+        "explanation": "SCM"
+      },
+      {
+        "question": "¿Qué tipo de software puede utilizarse para la gestión automatizada de almacenes?",
+        "options": [
+          "SCM",
+          "PLM",
+          "WMS",
+          "CRM"
+        ],
+        "answer": 2,
+        "explanation": "WMS"
+      },
+      {
+        "question": "Los gestores documentales se enmarcan en",
+        "options": [
+          "WMS",
+          "PLM",
+          "CRM",
+          "ECM"
+        ],
+        "answer": 3,
+        "explanation": "ECM"
+      },
+      {
+        "question": "BPM",
+        "options": [
+          "Se utiliza para realizar negocios de empresa a empresa",
+          "Se utiliza para gestionar el ciclo de vida de procesos de negocio",
+          "Se utiliza para realizar negocios de empresa a consumidor",
+          "Se utiliza para gestionar ciclo de vida de productos"
+        ],
+        "answer": 1,
+        "explanation": "Se utiliza para gestionar el ciclo de vida de procesos de negocio"
+      },
+      {
+        "question": "OLAP",
+        "options": [
+          "Son herramientas de inteligencia de negocios con análisis multidimensional",
+          "Es un lenguaje de dominio específico para SAP",
+          "Son programas para la gestión de las relaciones con los clientes",
+          "Es una técnica para crear arquitecturas evolutivas"
+        ],
+        "answer": 0,
+        "explanation": "Son herramientas de inteligencia de negocios con análisis multidimensional"
+      },
+      {
+        "question": "BPMN",
+        "options": [
+          "Es un conjunto de herramientas para gestionar la relación con los clientes",
+          "Engloba los sistemas de negocio de empresa a empresa",
+          "Es una notación visual para la definición de procesos de negocio",
+          "Es un lenguaje utilizado para orquestar procesos de negocio basado en XML"
+        ],
+        "answer": 2,
+        "explanation": "Es una notación visual para la definición de procesos de negocio"
+      },
+      {
+        "question": "PLM",
+        "options": [
+          "Es un lenguaje de dominio específico para SAP",
+          "Engloba herramientas que gestionan el ciclo de vida de productos",
+          "Equivale a \"Programming Language Methodology\"",
+          "Se utiliza para gestionar relaciones con los clientes"
+        ],
+        "answer": 1,
+        "explanation": "Engloba herramientas que gestionan el ciclo de vida de productos"
+      },
+      {
+        "question": "EAI",
+        "options": [
+          "Engloba herramientas de integración de software empresarial",
+          "Son sistemas de inteligencia artificial empresarial",
+          "Se utiliza para gestionar las relaciones con los clientes",
+          "Se utiliza para gestionar automáticamente almacenes"
+        ],
+        "answer": 0,
+        "explanation": "Engloba herramientas de integración de software empresarial"
+      },
+      {
+        "question": "Las líneas de producto software requieren",
+        "options": [
+          "Crear sistemas que evolucionan con el tiempo",
+          "utilizar acuerdos a nivel de servicio",
+          "técnicas de análisis del comportamiento del código",
+          "identificar soluciones genéricas a problemas comunes de varios productos"
+        ],
+        "answer": 3,
+        "explanation": "identificar soluciones genéricas a problemas comunes de varios productos"
+      },
+      {
+        "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+        "options": [
+          "Un SLO es un objetivo para un SLI",
+          "Un SLI es un objetivo para un SLA",
+          "Los SLI son acuerdos que se miden en función de los SLA",
+          "Los SLO son medidas cuantitativas de algún aspecto de un servicio"
+        ],
+        "answer": 0,
+        "explanation": "Un SLO es un objetivo para un SLI"
+      },
+      {
+        "question": "La ley de cambio continuo de Lehman dice que",
+        "options": [
+          "A medida que un sistema evoluciona, su complejidad aumenta",
+          "Al refactorizar un sistema antiguo se cambia el código continuamente",
+          "Un sistema debe adaptarse continuamente o cada vez es menos satisfactorio",
+          "Los sistemas deben cambiarse para que sigan siendo \"legacy\""
+        ],
+        "answer": 2,
+        "explanation": "Un sistema debe adaptarse continuamente o cada vez es menos satisfactorio"
+      },
+      {
+        "question": "Refactorizar consiste en",
+        "options": [
+          "Modificar el comportamiento externo sin modificar el software",
+          "Modificar la estructura del software preservando su comportamiento externo",
+          "Ejecutar las pruebas del sistema cada vez que se cambia el código",
+          "Cambiar la arquitectura del software sin modificar el código"
+        ],
+        "answer": 1,
+        "explanation": "Modificar la estructura del software preservando su comportamiento externo"
+      },
+      {
+        "question": "Un \"proyecto legacy\"",
+        "options": [
+          "Suele ser software poco útil",
+          "Suele ser software valioso que se tiene miedo a cambiar",
+          "Son proyectos recién desarrollados con poco deuda técnica",
+          "Son proyectos que evolucionan y se adaptan a los nuevos entornos"
+        ],
+        "answer": 1,
+        "explanation": "Suele ser software valioso que se tiene miedo a cambiar"
+      },
+      {
+        "question": "Un \"hotspot\" en el análisis comportamiento de software es",
+        "options": [
+          "Un componente complejo que cambia pocas veces",
+          "Un componente sencillo que cambia pocas veces",
+          "Un componente sencillo que cambia frecuentemente",
+          "Un componente complejo que cambia frecuentemente"
+        ],
+        "answer": 3,
+        "explanation": "Un componente complejo que cambia frecuentemente"
+      },
+      {
+        "question": "Las funciones de encaje",
+        "options": [
+          "Se utilizan en las arquitecturas evolutivas para analizar la evolución",
+          "Se utilizan en BPMN",
+          "Se utilizan en Serverless para adaptar el software a la nube",
+          "Son un aspecto fundamental de las líneas de productos software"
+        ],
+        "answer": 0,
+        "explanation": "Se utilizan en las arquitecturas evolutivas para analizar la evolución"
+      }
+    ]
+  },
+  {
+    "topic": "10: Seminarios Curso 2021/2022",
+    "questions": [
+      {
+        "question": "Una buena práctica al hacer una code-review es...",
+        "options": [
+          "Centrarse en el código",
+          "Utilizar sarcasmo",
+          "Centrarse en el creador del código",
+          "Realizar pocas revisiones, pero muy exhaustivas"
+        ],
+        "answer": 0,
+        "explanation": "Centrarse en el código"
+      },
+      {
+        "question": "¿Cuál de los siguientes aspectos puede considerarse deuda técnica?",
+        "options": [
+          "Utilizar microservicios",
+          "Realizar revisiones de código con mucha frecuencia",
+          "Errores detectados que cuya solución se pospone",
+          "Utilización de patrones de diseño"
+        ],
+        "answer": 2,
+        "explanation": "Errores detectados que cuya solución se pospone"
+      },
+      {
+        "question": "La U de la propuesta CUPID consiste en",
+        "options": [
+          "realizar código \"Understandable\"",
+          "proponer seguir filosofía \"Unix\"",
+          "reutilizar código de forma \"Unpredictable\"",
+          "\"Utilizar\" librerías obtenidas en repositorios externos"
+        ],
+        "answer": 1,
+        "explanation": "proponer seguir filosofía \"Unix\""
+      },
+      {
+        "question": "¿Qué dos modelos existen de Infraestructura como código?",
+        "options": [
+          "Seguros o Escalables",
+          "Verdaderos o Falsos",
+          "Positivos o negativos",
+          "Imperativos o declarativos"
+        ],
+        "answer": 3,
+        "explanation": "Imperativos o declarativos"
+      },
+      {
+        "question": "¿Cuál de las siguientes herramientas se utiliza para análisis de comportamiento de código?",
+        "options": [
+          "CodeScene",
+          "Maven",
+          "Quality Gate",
+          "CodeCov"
+        ],
+        "answer": 0,
+        "explanation": "CodeScene"
+      },
+      {
+        "question": "La Ley de Lehman de Crecimiento Continuo establece que",
+        "options": [
+          "El número de usuarios de un sistema software aumenta con el tiempo",
+          "El número de líneas de un sistema software aumenta con el tiempo",
+          "La funcionalidad de un sistema aumenta para satisfacer a los usuarios",
+          "El número de desarrolladores de un sistema software aumenta con el tiempo"
+        ],
+        "answer": 2,
+        "explanation": "La funcionalidad de un sistema aumenta para satisfacer a los usuarios"
+      },
+      {
+        "question": "Los micro-frontends son aplicaciones...",
+        "options": [
+          "cuyo front-end funciona en dispositivos pequeños",
+          "distribuidas que no tienen front-end",
+          "de front-end entregadas independientemente y se componen para generar otra",
+          "cuyo front-end se crea a partir de micro-servicios"
+        ],
+        "answer": 2,
+        "explanation": "de front-end entregadas independientemente y se componen para generar otra"
+      },
+      {
+        "question": "¿Cuál de los siguientes puede ser un problema de los sistemas serverless?",
+        "options": [
+          "Cold-start",
+          "Hold-start",
+          "La escalabilidad automática",
+          "La independencia de los proveedores"
+        ],
+        "answer": 0,
+        "explanation": "Cold-start"
+      },
+      {
+        "question": "¿Cuál de las siguientes es una de las 4 métricas claves?",
+        "options": [
+          "Cohesividad",
+          "Tiempo medio de recuperación",
+          "Complejidad ciclomática",
+          "Cobertura de código"
+        ],
+        "answer": 1,
+        "explanation": "Tiempo medio de recuperación"
+      },
+      {
+        "question": "En la propuesta reciente de Web3",
+        "options": [
+          "se sustituye el backend por persistencia basada en blockchain",
+          "se propone utilizar NFTs para compensar a los desarrolladores",
+          "se propone utilizar SOLID para mejorar la descentralización",
+          "se sustituyen los front-ends por diseños registrados mediante NFTs"
+        ],
+        "answer": 0,
+        "explanation": "se sustituye el backend por persistencia basada en blockchain"
+      },
+      {
+        "question": "Los mapas de Wardley representan",
+        "options": [
+          "tipos de arquitecturas basadas en serverless",
+          "técnicas de descomposición modular",
+          "en un eje la capacidad computacional y en otro la época",
+          "en un eje el valor para el usuario y en otro la evolución"
+        ],
+        "answer": 3,
+        "explanation": "en un eje el valor para el usuario y en otro la evolución"
+      },
+      {
+        "question": "¿Cuál de los siguientes es un patrón de Microservicios?",
+        "options": [
+          "El patrón \"Asesino\"",
+          "El patrón \"Estrangulador\"",
+          "La utilización de una única base de datos compartida",
+          "El patrón MTTR"
+        ],
+        "answer": 1,
+        "explanation": "El patrón \"Estrangulador\""
+      }
+    ]
+  }
+]
