@@ -255,7 +255,7 @@
           "Modelo 5+1 de Kruchten",
           "Arc42",
           "Modelo C4",
-          "Auténtico Desastre Logístico"
+          "Vistas y más"
         ],
         "answer": 0,
         "explanation": "Modelo 5+1 de Kruchten"
@@ -312,7 +312,7 @@
           "Todas las secciones describen el problema",
           "Todas las secciones describen la solución"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Las 3 primeras secciones describen problema, las 8 siguientes la solución"
       },
       {
