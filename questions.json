@@ -2431,6 +2431,119 @@
         ],
         "answer": 1,
         "explanation": "El patrón \"Estrangulador\""
+      }, ,
+  {
+    "topic": "Seminarios",
+    "questions": [
+      {
+        "question": "¿Cuál de los siguientes puede formar parte de la deuda técnica?",
+        "options": [
+          "Solo el código que forma parte del ejecutable",
+          "Todo el código, incluido el código de pruebas",
+          "Solo el código que aparece en la cobertura de código",
+          "Solo el código de las dependencias"
+        ],
+        "answer": 1,
+        "explanation": "Todo el código, incluido el código de pruebas"
+      },
+      {
+        "question": "¿Qué lenguaje utiliza internamente la librería libCurl",
+        "options": [
+          "Java",
+          "C",
+          "PHP",
+          "Rust"
+        ],
+        "answer": 2,
+        "explanation": "PHP"
+      },
+      {
+        "question": "¿Cuál de las siguientes sirve para mejorar la productividad de los desarrolladores?",
+        "options": [
+          "UX",
+          "DX",
+          "XML",
+          "RDF"
+        ],
+        "answer": 1,
+        "explanation": "DX"
+      },
+      {
+        "question": "Según John Ousterhout, una buena descomposición modular utiliza módulos...",
+        "options": [
+          "concretos y estables",
+          "redondos, con muchas dependencias cíclicas",
+          "anchos, con mucha interfaz y poca funcionalidad",
+          "profundos, con poca interfaz y mucha funcionalidad"
+        ],
+        "answer": 3,
+        "explanation": "profundos, con poca interfaz y mucha funcionalidad"
+      },
+      {
+        "question": "¿Cuál de las siguientes es una falacia de la computación dstribuida?",
+        "options": [
+          "La latencia es cero",
+          "La latencia aumenta con el tiempo",
+          "La latencia disminuye con el tiempo",
+          "La latencia es negativa"
+        ],
+        "answer": 0,
+        "explanation": "La latencia es cero"
+      },
+      {
+        "question": "Un ejemplo de antipatrón de DevOps es:",
+        "options": [
+          "Cultura por consenso",
+          "Caja de herramientas completa",
+          "Fatiga por alerta",
+          "Cortocircuito"
+        ],
+        "answer": 2,
+        "explanation": "Fatiga por alerta"
+      },
+      {
+        "question": "Disponer de una capacidad para cometer errores cumpliendo con los SLOs se conoce como",
+        "options": [
+          "SLA",
+          "SLI",
+          "Presupuesto por error (Error Budget)",
+          "Error de latencia"
+        ],
+        "answer": 2,
+        "explanation": "Presupuesto por error (Error Budget)"
+      },
+      {
+        "question": "Un ejemplo de sistema que cumple con la arquitectura inmutable sería:",
+        "options": [
+          "Linux",
+          "Blockchain",
+          "Bases de datos relacionales",
+          "Windows"
+        ],
+        "answer": 1,
+        "explanation": "Blockchain"
+      },
+      {
+        "question": "El software con el que se implementó eBay",
+        "options": [
+          "Se diseñó utilizando arquitectura de microservicios",
+          "Está implementado en PHP",
+          "Es un ejemplo de arquitectura basada en 3 capas",
+          "Se re-escribió varias veces en varios lenguajes"
+        ],
+        "answer": 3,
+        "explanation": "Se re-escribió varias veces en varios lenguajes"
+      },
+      {
+        "question": "En el proyecto Software Heritage Archive",
+        "options": [
+          "Se utiliza un identificador único intrínseco para cada objeto",
+          "Se utiliza un registro de identificadores extrínsecos",
+          "Se almacena la lista de mejores arquitectos de software",
+          "No es necesario utilizar identificadores únicos"
+        ],
+        "answer": 0,
+        "explanation": "Se utiliza un identificador único intrínseco para cada objeto"
       }
     ]
   }
