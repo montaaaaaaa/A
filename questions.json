@@ -2298,7 +2298,7 @@
     ]
   },
   {
-    "topic": "10: Seminarios Curso 2021/2022",
+    "topic": "Seminarios Curso 2021/2022",
     "questions": [
       {
         "question": "Una buena práctica al hacer una code-review es...",
@@ -2431,7 +2431,7 @@
         ],
         "answer": 1,
         "explanation": "El patrón \"Estrangulador\""
-      }, ,
+      }, 
   {
     "topic": "Seminarios",
     "questions": [
