@@ -274,11 +274,11 @@ function createMockExam(data) {
 
     data.forEach(topic => {
         const questions = topic.questions;
-        for(let i = 0; i < numOfQuestionsPerTopic; i++) {
-            const randomIndex = Math.floor(Math.random() * questions.length);
-            mockExamQuestions.push(questions[randomIndex]);
-            //questions.splice(randomIndex, 1); // Removemos la pregunta seleccionada para evitar duplicados
-        }
+        if(topic.topic !== "Seminarios Curso 2021/2022" && !topic.topic.includes("Examen"))
+            for(let i = 0; i < numOfQuestionsPerTopic; i++) {
+                const randomIndex = Math.floor(Math.random() * questions.length);
+                mockExamQuestions.push(questions[randomIndex]);
+            }
     });
 
     shuffleArray(mockExamQuestions); // Mezcla las preguntas del simulacro de examen
