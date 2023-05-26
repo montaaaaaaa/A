@@ -2548,5 +2548,341 @@
           "explanation": "Se utiliza un identificador único intrínseco para cada objeto"
         }
     ]
+  },
+  {
+      "topic": "Examen Mayo 2022",
+      "questions": [
+        {
+          "question": "CQRS separa el interfaz en",
+          "options": [
+            "peticiones y respuestas",
+            "comandos que realizan acciones y consultas que leen datos",
+            "comandos que realizan acciones y consultas que escriben datos"
+          ],
+          "answer": 1,
+          "explanation": "comandos que realizan acciones y consultas que leen datos"
+        },
+        {
+          "question": "MTBF y MTTR",
+          "options": [
+            "Se utilizan para medir la complejidad ciclomática",
+            "Son dos técnicas utilizadas para identificar stakeholders",
+            "Son tiempo medio entre fallos y tiempo medio de recuperación"
+          ],
+          "answer": 2,
+          "explanation": "Son tiempo medio entre fallos y tiempo medio de recuperación"
+        },
+        {
+          "question": "El conocimiento entre 2 elementos puede hacer que",
+          "options": [
+            "un cambio en uno obliga a un cambio en otro para mantener sistema correcto",
+            "un cambio en uno obliga a crear el otro para que el sistema sea correcto",
+            "sea necesario crear ambos al mismo tiempo"
+          ],
+          "answer": 0,
+          "explanation": "un cambio en uno obliga a un cambio en otro para mantener sistema correcto"
+        },{
+          "question": "En Event-driven architecture",
+          "options": [
+            "Los consumidores de eventos esperan que los productores envíen eventos",
+            "Los eventos son invocaciones síncronas",
+            "Un evento es algo que ha sucedido"
+          ],
+          "answer": 2,
+          "explanation": "Un evento es algo que ha sucedido"
+        },{
+          "question": "La arquitectura Kappa utiliza",
+          "options": [
+            "un log de eventos que pueden modificarse durante la ejecución",
+            "un log distribuido y replicado como almacenamiento de eventos",
+            "una capa batch para almacenar los logs distribuidos"
+          ],
+          "answer": 1,
+          "explanation": "un log distribuido y replicado como almacenamiento de eventos"
+        },{
+          "question": "En las compañías basadas en producto en dominios diferentes del software",
+          "options": [
+            "Se produce un compromiso entre departamento IT interno o outsourcing",
+            "El software es lo más importante de la empresa",
+            "La inversión suele ser realizada por business angels o capital riesgo"
+          ],
+          "answer": 0,
+          "explanation": "Se produce un compromiso entre departamento IT interno o outsourcing"
+        },{
+          "question": "La Vista de bloques de construcción de Arc42",
+          "options": [
+            "Se basa en diagramas de despliegue de UML",
+            "Puede contener varios diagramas de cajas blancas y cajas negras combinados",
+            "Contiene un único diagrama que combina cajas blancas y negras"
+          ],
+          "answer": 1,
+          "explanation": "Puede contener varios diagramas de cajas blancas y cajas negras combinados"
+        },{
+          "question": " El modelo de capas de docker",
+          "options": [
+            "Permite crear un dockerd a partir de una imagen",
+            "Permite que los contenedores estén aislados",
+            "Permite definir imágenes a partir de otras imágenes"
+          ],
+          "answer": 2,
+          "explanation": "Permite definir imágenes a partir de otras imágenes"
+        },{
+          "question": "¿Quién dijo que los pilares de una buena arquitectura eran Utilidad, durabilidad y elegancia?",
+          "options": [
+            "Martin Fowler en el s. XX",
+            "Vitruvio en 15 al 30 a. de C.",
+            "Aristóteles en 300 a. de C."
+          ],
+          "answer": 1,
+          "explanation": "Vitruvio en 15 al 30 a. de C."
+        },{
+          "question": "Una solución basada en \"steady state\" o estado estacionario es",
+          "options": [
+            "Limpiar recursos del sistema automáticamente",
+            "Crear una réplica del servidor",
+            "Utilizar un monitor que limite las peticiones que ocupan mucho tiempo"
+          ],
+          "answer": 0,
+          "explanation": "Limpiar recursos del sistema automáticamente"
+        },{
+          "question": "Las líneas de producto software requieren",
+          "options": [
+            "técnicas de análisis del comportamiento del código",
+            "identificar soluciones genéricas a problemas comunes de varios productos",
+            "crear sistemas que evolucionan con el tiempo"
+          ],
+          "answer": 1,
+          "explanation": "identificar soluciones genéricas a problemas comunes de varios productos"
+        },{
+          "question": "Se recomienda que los registros de decisiones arquitectónicas sean",
+          "options": [
+            "Revisados y actualizados continuamente",
+            "Actualizados en cada etapa del desarrollo",
+            "Inmutables"
+          ],
+          "answer": 2,
+          "explanation": "Inmutables"
+        },{
+          "question": "En las arquitecturas de microservicios, cuando hay varios nodos computacionales, la escalabilidad se obtiene",
+          "options": [
+            "replicando cada microservicio de forma independiente en diferentes nodos",
+            "replicando todos los microservicios en cada nodo",
+            "utilizando la ley de Conway"
+          ],
+          "answer": 0,
+          "explanation": "replicando cada microservicio de forma independiente en diferentes nodos"
+        },{
+          "question": "En REST, la operación PUT",
+          "options": [
+            "No es ni idempotente ni segura",
+            "Es idempotente pero no segura",
+            "Es idempotente y segura"
+          ],
+          "answer": 1,
+          "explanation": "Es idempotente pero no segura"
+        },
+        {
+          "question": "Los mapas de Wardley representan",
+          "options": [
+            "en un eje la capacidad computacional y en otro la época",
+            "tipos de arquitecturas basadas en serverless",
+            "en un eje el valor para el usuario y en otro la evolución"
+          ],
+          "answer": 2,
+          "explanation": "en un eje el valor para el usuario y en otro la evolución"
+        },
+        {
+          "question": "La diferencia entre \"npm install paquete\" y \"npm install -g paquete\"",
+          "options": [
+            "El primero instala dependencias en carpeta node_modules",
+            "El segundo instala dependencias en carpeta node_modules",
+            "El primero instala paquetes en node y el segundo en docker"
+          ],
+          "answer": 0,
+          "explanation": "El primero instala dependencias en carpeta node_modules"
+        },
+        {
+          "question": "En los escenarios de calidad",
+          "options": [
+            "se identifican stakeholders",
+            "se definen estímulos, respuestas y medidas esperadas de dichas respuestas",
+            "se crean diagramas de cajas blancas/negras relacionando componentes con nodos computacionales"
+          ],
+          "answer": 1,
+          "explanation": "se definen estímulos, respuestas y medidas esperadas de dichas respuestas"
+        },
+        {
+          "question": "Según la ley de Conway, las organizaciones que diseñan sistemas...",
+          "options": [
+            "producen diseños que copian el resto de organizaciones",
+            "producen diseños basados en 3 capas",
+            "producen diseños que son copias de las estructuras de estas organizaciones"
+          ],
+          "answer": 2,
+          "explanation": "producen diseños que son copias de las estructuras de estas organizaciones"
+        },
+        {
+          "question": "Una restricción en Domain Driven Design es",
+          "options": [
+            "Que los Objetos valor sean inmutables",
+            "Que los aspectos capturen crosscutting concerns",
+            "Que el modelo de dominio sea independiente del sistema de persistencia"
+          ],
+          "answer": 0,
+          "explanation": ""
+        }
+    ]
+  },
+  {
+      "topic": "Examen Mayo 2019",
+      "questions": [
+        {
+          "question": "La arquitectura serverless",
+          "options": [
+            "Propone aplicaciones descentralizadas en las que no exista un servidor único",
+            "Consiste en que los desarrolladores gestionan la escalabilidad de las aplicaciones",
+            "Se conoce también como function-as-a-service"
+          ],
+          "answer": 2,
+          "explanation": "Se conoce también como function-as-a-service"
+        },
+        {
+          "question": "La especificación ISO25010:",
+          "options": [
+            "...define un modelo de calidad que incluye una lista de atributos de calidad",
+            "...define una lista de restricciones que toda arquitectura del software debe satisfacer",
+            "...define la lista de requisitos funcionales del sistema"
+          ],
+          "answer": 0,
+          "explanation": "...define un modelo de calidad que incluye una lista de atributos de calidad"
+        },
+        {
+          "question": "Un escenario de calidad debe especificar:",
+          "options": [
+            "Las restricciones del software",
+            "Una medida de la respuesta",
+            "El patrón arquitectónico que se va a utilizar"
+          ],
+          "answer": 1,
+          "explanation": "Una medida de la respuesta"
+        },{
+          "question": "La deuda técnica…",
+          "options": [
+            "…es una restricción impuesta por los stakeholders",
+            "…consiste en utilizar arquitecturas de referencia",
+            "…es el efecto de tomar una decisión de diseño equivocada"
+          ],
+          "answer": 2,
+          "explanation": "…es el efecto de tomar una decisión de diseño equivocada"
+        },{
+          "question": "Un profiler",
+          "options": [
+            "Es un sistema de control de versiones con integración continua",
+            "Es una herramienta que informa sobre el uso de recursos durante la ejecución de un software",
+            "Es una herramienta utilizada para BDD"
+          ],
+          "answer": 1,
+          "explanation": "Es una herramienta que informa sobre el uso de recursos durante la ejecución de un software"
+        },{
+          "question": "Utilizar canary releases consiste en:",
+          "options": [
+            "Introducir nuevas versiones mostrando cambios lentamente a un subconjunto de los usuarios",
+            "Desarrollar versiones de software en ramas que puedan ser borradas posteriormente",
+            "Utilizar integración continua para producir versiones de forma continua con pruebas de aceptación"
+          ],
+          "answer": 0,
+          "explanation": "Introducir nuevas versiones mostrando cambios lentamente a un subconjunto de los usuarios"
+        },{
+          "question": "La ley de Conway dice que…",
+          "options": [
+            "...es necesario definir módulos que sean liberales en lo que aceptan de otros y conservadores en lo que envían",
+            "...los subtipos deben seguir el contrato de los supertipos",
+            "...las organizaciones que diseñan sistemas acaban produciendo sistemas que son copias de las estructuras de comunicación de dichas organizaciones"
+          ],
+          "answer": 1,
+          "explanation": "...las organizaciones que diseñan sistemas acaban produciendo sistemas que son copias de las estructuras de comunicación de dichas organizaciones"
+        },{
+          "question": "¿Cuál de los siguientes sistemas tiene un estilo arquitectónico peer-to-peer?",
+          "options": [
+            "IPFS",
+            "Asciidoctor",
+            "Mocha"
+          ],
+          "answer": 0,
+          "explanation": "IPFS"
+        },{
+          "question": "Una ventaja del estilo arquitectónico Batch es:",
+          "options": [
+            "Interactividad",
+            "Acoplamiento débil entre componentes",
+            "Concurrencia"
+          ],
+          "answer": 1,
+          "explanation": "Acoplamiento débil entre componentes"
+        },{
+          "question": "¿Cuál de las siguientes frases es correcta?:",
+          "options": [
+            "Todos los atributos de calidad son buenos.",
+            "Los atributos de calidad tienen un valor booleano, o se cumplen o no.",
+            "Los atributos de calidad son independientes entre sí."
+          ],
+          "answer": 0,
+          "explanation": "Todos los atributos de calidad son buenos."
+        },{
+          "question": "La ingeniería del caos…",
+          "options": [
+            "…es un antipatrón de arquitectura del software que puede surgir al no utilizar control de versiones",
+            "…consiste en realizar pruebas de carga hasta que el sistema no tenga más capacidad",
+            "…propone inyectar fallos adrede en sistemas distribuidos para comprobar la resiliencia"
+          ],
+          "answer": 2,
+          "explanation": "…propone inyectar fallos adrede en sistemas distribuidos para comprobar la resiliencia"
+        },{
+          "question": "Un WMS",
+          "options": [
+            "Es un sistema de balanceo de carga en aplicaciones Web",
+            "Es un tipo de software que permite gestionar almacenes",
+            "Es un sistema de gestión del conocimiento de una empresa"
+          ],
+          "answer": 1,
+          "explanation": "Es un tipo de software que permite gestionar almacenes"
+        },{
+          "question": "Gherkin",
+          "options": [
+            "Es un lenguaje utilizado para definir historias de usuario",
+            "Es un sistema de integración continua",
+            "Es una herramienta para realizar pruebas de navegación en aplicaciones Web"
+          ],
+          "answer": 0,
+          "explanation": "Es un lenguaje utilizado para definir historias de usuario"
+        },{
+          "question": "- En Arc42, una vista estática del sistema formada por una jerarquía de cajas blancas y negras es la…",
+          "options": [
+            "Vista en tiempo de ejecución ó runtime view",
+            "Vista de despliegue ó deployment view",
+            "Vista de bloques de construcción ó building block view"
+          ],
+          "answer": 2,
+          "explanation": "Vista de bloques de construcción ó building block view"
+        },{
+          "question": "Un escenario de calidad…",
+          "options": [
+            "…es una restricción del sistema planteada por uno de los stakeholders",
+            "…describe qué debería ocurrir cuando llega un estímulo",
+            "…es también conocido como deuda técnica o technical debt"
+          ],
+          "answer": 1,
+          "explanation": "…describe qué debería ocurrir cuando llega un estímulo"
+        },{
+          "question": "ATAM",
+          "options": [
+            "Es un patrón arquitectónico",
+            "Es un método de evaluación de arquitecturas del software",
+            "Es una metodología de desarrollo de software ágil"
+          ],
+          "answer": 1,
+          "explanation": "Es un método de evaluación de arquitecturas del software"
+        }
+    ]
   }
 ]
