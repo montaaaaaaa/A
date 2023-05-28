@@ -3144,7 +3144,7 @@
           "question": "ADD es un método de diseño de arquitecturas que se basa en…",
           "options": [
             "…la identificación de atributos de calidad que son modelados mediante escenarios de calidad",
-            "…la identificación de atributos de calidad que son modelados mediante escenarios de calidad",
+            "…las definiciones funcionales que permiten identificar atributos y escenarios de calidad.",
             "…la identificación de escenarios de calidad a partir de los cuales se crean los atributos de calidad"
           ],
           "answer": 0,
