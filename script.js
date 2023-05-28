@@ -275,10 +275,13 @@ function createMockExam(data) {
     data.forEach(topic => {
         const questions = topic.questions;
         if (topic.topic.toString() !== "Seminarios Curso 2021/2022" && !topic.topic.toString().includes("Examen")) {
-	    for (let i = 0; i < numOfQuestionsPerTopic; i++) {
-	      const randomIndex = Math.floor(Math.random() * questions.length);
-	      mockExamQuestions.push(questions[randomIndex]);
-	    }
+	    for(let i = 0; i < numOfQuestionsPerTopic; i++) {
+                const randomIndex = Math.floor(Math.random() * questions.length);
+                while(mockExamQuestions.includes(questions[randomIndex])) {
+                    randomIndex = Math.floor(Math.random() * questions.length);
+                }
+                mockExamQuestions.push(questions[randomIndex]);
+            }
  	}
     });
 
