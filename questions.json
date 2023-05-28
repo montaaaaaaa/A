@@ -1033,7 +1033,7 @@
         "explanation": "Son módulos abstractos e inestables"
       },
       {
-        "question": "El conocimiento entre 2 elementos puede hacer que",
+        "question": "El conacimiento entre 2 elementos puede hacer que",
         "options": [
           "sea necesario crear ambos al mismo tiempo",
           "sea necesario destruir ambos al mismo tiempo",
@@ -2732,147 +2732,450 @@
           "explanation": ""
         }
     ]
+  }, {
+    "topic": "Examen Mayo 2019",
+    "questions": [
+      {
+        "question": "La arquitectura serverless",
+        "options": [
+          "Propone aplicaciones descentralizadas en las que no exista un servidor único",
+          "Consiste en que los desarrolladores gestionan la escalabilidad de las aplicaciones",
+          "Se conoce también como function-as-a-service"
+        ],
+        "answer": 2,
+        "explanation": "Se conoce también como function-as-a-service"
+      },
+      {
+        "question": "La especificación ISO25010:",
+        "options": [
+          "...define un modelo de calidad que incluye una lista de atributos de calidad",
+          "...define una lista de restricciones que toda arquitectura del software debe satisfacer",
+          "...define la lista de requisitos funcionales del sistema"
+        ],
+        "answer": 0,
+        "explanation": "...define un modelo de calidad que incluye una lista de atributos de calidad"
+      },
+      {
+        "question": "Un escenario de calidad debe especificar:",
+        "options": [
+          "Las restricciones del software",
+          "Una medida de la respuesta",
+          "El patrón arquitectónico que se va a utilizar"
+        ],
+        "answer": 1,
+        "explanation": "Una medida de la respuesta"
+      },{
+        "question": "La deuda técnica…",
+        "options": [
+          "…es una restricción impuesta por los stakeholders",
+          "…consiste en utilizar arquitecturas de referencia",
+          "…es el efecto de tomar una decisión de diseño equivocada"
+        ],
+        "answer": 2,
+        "explanation": "…es el efecto de tomar una decisión de diseño equivocada"
+      },{
+        "question": "Un profiler",
+        "options": [
+          "Es un sistema de control de versiones con integración continua",
+          "Es una herramienta que informa sobre el uso de recursos durante la ejecución de un software",
+          "Es una herramienta utilizada para BDD"
+        ],
+        "answer": 1,
+        "explanation": "Es una herramienta que informa sobre el uso de recursos durante la ejecución de un software"
+      },{
+        "question": "Utilizar canary releases consiste en:",
+        "options": [
+          "Introducir nuevas versiones mostrando cambios lentamente a un subconjunto de los usuarios",
+          "Desarrollar versiones de software en ramas que puedan ser borradas posteriormente",
+          "Utilizar integración continua para producir versiones de forma continua con pruebas de aceptación"
+        ],
+        "answer": 0,
+        "explanation": "Introducir nuevas versiones mostrando cambios lentamente a un subconjunto de los usuarios"
+      },{
+        "question": "La ley de Conway dice que…",
+        "options": [
+          "...es necesario definir módulos que sean liberales en lo que aceptan de otros y conservadores en lo que envían",
+          "...los subtipos deben seguir el contrato de los supertipos",
+          "...las organizaciones que diseñan sistemas acaban produciendo sistemas que son copias de las estructuras de comunicación de dichas organizaciones"
+        ],
+        "answer": 1,
+        "explanation": "...las organizaciones que diseñan sistemas acaban produciendo sistemas que son copias de las estructuras de comunicación de dichas organizaciones"
+      },{
+        "question": "¿Cuál de los siguientes sistemas tiene un estilo arquitectónico peer-to-peer?",
+        "options": [
+          "IPFS",
+          "Asciidoctor",
+          "Mocha"
+        ],
+        "answer": 0,
+        "explanation": "IPFS"
+      },{
+        "question": "Una ventaja del estilo arquitectónico Batch es:",
+        "options": [
+          "Interactividad",
+          "Acoplamiento débil entre componentes",
+          "Concurrencia"
+        ],
+        "answer": 1,
+        "explanation": "Acoplamiento débil entre componentes"
+      },{
+        "question": "¿Cuál de las siguientes frases es correcta?:",
+        "options": [
+          "Todos los atributos de calidad son buenos.",
+          "Los atributos de calidad tienen un valor booleano, o se cumplen o no.",
+          "Los atributos de calidad son independientes entre sí."
+        ],
+        "answer": 0,
+        "explanation": "Todos los atributos de calidad son buenos."
+      },{
+        "question": "La ingeniería del caos…",
+        "options": [
+          "…es un antipatrón de arquitectura del software que puede surgir al no utilizar control de versiones",
+          "…consiste en realizar pruebas de carga hasta que el sistema no tenga más capacidad",
+          "…propone inyectar fallos adrede en sistemas distribuidos para comprobar la resiliencia"
+        ],
+        "answer": 2,
+        "explanation": "…propone inyectar fallos adrede en sistemas distribuidos para comprobar la resiliencia"
+      },{
+        "question": "Un WMS",
+        "options": [
+          "Es un sistema de balanceo de carga en aplicaciones Web",
+          "Es un tipo de software que permite gestionar almacenes",
+          "Es un sistema de gestión del conocimiento de una empresa"
+        ],
+        "answer": 1,
+        "explanation": "Es un tipo de software que permite gestionar almacenes"
+      },{
+        "question": "Gherkin",
+        "options": [
+          "Es un lenguaje utilizado para definir historias de usuario",
+          "Es un sistema de integración continua",
+          "Es una herramienta para realizar pruebas de navegación en aplicaciones Web"
+        ],
+        "answer": 0,
+        "explanation": "Es un lenguaje utilizado para definir historias de usuario"
+      },{
+        "question": "- En Arc42, una vista estática del sistema formada por una jerarquía de cajas blancas y negras es la…",
+        "options": [
+          "Vista en tiempo de ejecución ó runtime view",
+          "Vista de despliegue ó deployment view",
+          "Vista de bloques de construcción ó building block view"
+        ],
+        "answer": 2,
+        "explanation": "Vista de bloques de construcción ó building block view"
+      },{
+        "question": "Un escenario de calidad…",
+        "options": [
+          "…es una restricción del sistema planteada por uno de los stakeholders",
+          "…describe qué debería ocurrir cuando llega un estímulo",
+          "…es también conocido como deuda técnica o technical debt"
+        ],
+        "answer": 1,
+        "explanation": "…describe qué debería ocurrir cuando llega un estímulo"
+      },{
+        "question": "ATAM",
+        "options": [
+          "Es un patrón arquitectónico",
+          "Es un método de evaluación de arquitecturas del software",
+          "Es una metodología de desarrollo de software ágil"
+        ],
+        "answer": 1,
+        "explanation": "Es un método de evaluación de arquitecturas del software"
+      }
+  ]
   },
   {
-      "topic": "Examen Mayo 2019",
+      "topic": "Examen Mayo 2018",
       "questions": [
         {
-          "question": "La arquitectura serverless",
+          "question": "¿Hay alguna diferencia entre un diagrama y una vista de arquitectura?",
           "options": [
-            "Propone aplicaciones descentralizadas en las que no exista un servidor único",
-            "Consiste en que los desarrolladores gestionan la escalabilidad de las aplicaciones",
-            "Se conoce también como function-as-a-service"
+            "No hay ninguna diferencia, ya que las vistas son siempre diagramas",
+            "Los diagramas son o pueden ser parte de documentación de la vista",
+            "Es tal la relación entre ambos que puede usarse indistintamente una u otra acepción"
           ],
-          "answer": 2,
-          "explanation": "Se conoce también como function-as-a-service"
+          "answer": 1,
+          "explanation": "Los diagramas son o pueden ser parte de documentación de la vista"
         },
         {
-          "question": "La especificación ISO25010:",
+          "question": "Según ABC, se considera la arquitectura como un paso previo al diseño y la implementación. Este paso previo consta de varios pasos. EL último de ellos es:",
           "options": [
-            "...define un modelo de calidad que incluye una lista de atributos de calidad",
-            "...define una lista de restricciones que toda arquitectura del software debe satisfacer",
-            "...define la lista de requisitos funcionales del sistema"
+            "Aseguramiento de que la aplicación se ajusta a la arquitectura",
+            "Cierre del proyecto de arquitectura",
+            "Implementación del sistema basado en la arquitectura"
           ],
           "answer": 0,
-          "explanation": "...define un modelo de calidad que incluye una lista de atributos de calidad"
+          "explanation": "Aseguramiento de que la aplicación se ajusta a la arquitectura"
         },
         {
-          "question": "Un escenario de calidad debe especificar:",
+          "question": " ¿Cuál de las siguientes es la mejor definición de interesados (stakeholders)?",
           "options": [
-            "Las restricciones del software",
-            "Una medida de la respuesta",
-            "El patrón arquitectónico que se va a utilizar"
+            "Son personas, grupos de personas u organizaciones que componen la competencia empresarial a la compañía que desarrolla el software y que tienen un interés personal en el fracaso del proyecto",
+            "Son personas, grupos de personas u organizaciones que tienen un interés personal en la aplicación y que comparten un conjunto común de preocupaciones e intereses en la aplicación",
+            "Son personas, grupos de personas u organizaciones que desarrollan la aplicación y que tienen interés especial en la utilización de una tecnología de baja complejidad"
           ],
           "answer": 1,
-          "explanation": "Una medida de la respuesta"
+          "explanation":  "Son personas, grupos de personas u organizaciones que tienen un interés personal en la aplicación y que comparten un conjunto común de preocupaciones e intereses en la aplicación"
         },{
-          "question": "La deuda técnica…",
+          "question": "En (Gorton, 2006) se describe un modelo simple de tres pasos para el estudio de arquitecturas, ¿cuáles?",
           "options": [
-            "…es una restricción impuesta por los stakeholders",
-            "…consiste en utilizar arquitecturas de referencia",
-            "…es el efecto de tomar una decisión de diseño equivocada"
+            "Elegir un módulo a descomponer, Refinar el módulo y repetir estos pasos hasta que no se necesario una descomposición más profunda.",
+            "Inicio, desarrollo y transición",
+            "Definir los requisitos de arquitectura, realizar el diseño de la arquitectura y validar la arquitectura"
           ],
           "answer": 2,
-          "explanation": "…es el efecto de tomar una decisión de diseño equivocada"
+          "explanation": "Definir los requisitos de arquitectura, realizar el diseño de la arquitectura y validar la arquitectura"
         },{
-          "question": "Un profiler",
+          "question": "En el estilo arquitectónico de componentes...",
           "options": [
-            "Es un sistema de control de versiones con integración continua",
-            "Es una herramienta que informa sobre el uso de recursos durante la ejecución de un software",
-            "Es una herramienta utilizada para BDD"
-          ],
-          "answer": 1,
-          "explanation": "Es una herramienta que informa sobre el uso de recursos durante la ejecución de un software"
-        },{
-          "question": "Utilizar canary releases consiste en:",
-          "options": [
-            "Introducir nuevas versiones mostrando cambios lentamente a un subconjunto de los usuarios",
-            "Desarrollar versiones de software en ramas que puedan ser borradas posteriormente",
-            "Utilizar integración continua para producir versiones de forma continua con pruebas de aceptación"
-          ],
-          "answer": 0,
-          "explanation": "Introducir nuevas versiones mostrando cambios lentamente a un subconjunto de los usuarios"
-        },{
-          "question": "La ley de Conway dice que…",
-          "options": [
-            "...es necesario definir módulos que sean liberales en lo que aceptan de otros y conservadores en lo que envían",
-            "...los subtipos deben seguir el contrato de los supertipos",
-            "...las organizaciones que diseñan sistemas acaban produciendo sistemas que son copias de las estructuras de comunicación de dichas organizaciones"
-          ],
-          "answer": 1,
-          "explanation": "...las organizaciones que diseñan sistemas acaban produciendo sistemas que son copias de las estructuras de comunicación de dichas organizaciones"
-        },{
-          "question": "¿Cuál de los siguientes sistemas tiene un estilo arquitectónico peer-to-peer?",
-          "options": [
-            "IPFS",
-            "Asciidoctor",
-            "Mocha"
-          ],
-          "answer": 0,
-          "explanation": "IPFS"
-        },{
-          "question": "Una ventaja del estilo arquitectónico Batch es:",
-          "options": [
-            "Interactividad",
-            "Acoplamiento débil entre componentes",
-            "Concurrencia"
-          ],
-          "answer": 1,
-          "explanation": "Acoplamiento débil entre componentes"
-        },{
-          "question": "¿Cuál de las siguientes frases es correcta?:",
-          "options": [
-            "Todos los atributos de calidad son buenos.",
-            "Los atributos de calidad tienen un valor booleano, o se cumplen o no.",
-            "Los atributos de calidad son independientes entre sí."
-          ],
-          "answer": 0,
-          "explanation": "Todos los atributos de calidad son buenos."
-        },{
-          "question": "La ingeniería del caos…",
-          "options": [
-            "…es un antipatrón de arquitectura del software que puede surgir al no utilizar control de versiones",
-            "…consiste en realizar pruebas de carga hasta que el sistema no tenga más capacidad",
-            "…propone inyectar fallos adrede en sistemas distribuidos para comprobar la resiliencia"
+            "…los conectores representan relaciones entre las clases que no necesitan implementación.",
+            "...los componentes representan elementos de diseño.",
+            "...los componentes y los conectores representan elementos que existirán en tiempo de ejecución y los caminos de interacción"
           ],
           "answer": 2,
-          "explanation": "…propone inyectar fallos adrede en sistemas distribuidos para comprobar la resiliencia"
+          "explanation": "...los componentes y los conectores representan elementos que existirán en tiempo de ejecución y los caminos de interacción"
         },{
-          "question": "Un WMS",
+          "question": " ¿Qué es Attribute Driven Design (ADD)?",
           "options": [
-            "Es un sistema de balanceo de carga en aplicaciones Web",
-            "Es un tipo de software que permite gestionar almacenes",
-            "Es un sistema de gestión del conocimiento de una empresa"
+            "ADD es un método de diseño de arquitectura que basa la descomposición de procesos en la creación de historias de usuario",
+            "ADD es un método de diseño de arquitectura que basa la descomposición de procesos en los atributos de calidad que el software ha de cumplir",
+            "ADD es un método de diseño de arquitectura que basa la descomposición de procesos en la identificación de las funcionalidades del sistema"
           ],
           "answer": 1,
-          "explanation": "Es un tipo de software que permite gestionar almacenes"
+          "explanation": "ADD es un método de diseño de arquitectura que basa la descomposición de procesos en los atributos de calidad que el software ha de cumplir"
         },{
-          "question": "Gherkin",
+          "question": "¿Qué son los COTS (Commercial Off-the-Shelf)?",
           "options": [
-            "Es un lenguaje utilizado para definir historias de usuario",
-            "Es un sistema de integración continua",
-            "Es una herramienta para realizar pruebas de navegación en aplicaciones Web"
+            "Son componentes de software obtenidos de fuentes de software libre o de proveedores",
+            "Son componentes que han sido reciclados de otros sistemas implementados.",
+            "Son componentes que no pertenecen a la plataforma desarrollada sino a los clientes."
           ],
           "answer": 0,
-          "explanation": "Es un lenguaje utilizado para definir historias de usuario"
+          "explanation": "Son componentes de software obtenidos de fuentes de software libre o de proveedores"
         },{
-          "question": "- En Arc42, una vista estática del sistema formada por una jerarquía de cajas blancas y negras es la…",
+          "question": "Las vistas basadas en la relación \"Is-part-of\" son:",
           "options": [
-            "Vista en tiempo de ejecución ó runtime view",
-            "Vista de despliegue ó deployment view",
-            "Vista de bloques de construcción ó building block view"
+            "Las vistas de descomposición",
+            "Las vistas de secuencia",
+            "Las vistas de conectores y componentes"
           ],
-          "answer": 2,
-          "explanation": "Vista de bloques de construcción ó building block view"
+          "answer": 0,
+          "explanation": "Las vistas de descomposición"
         },{
-          "question": "Un escenario de calidad…",
+          "question": "¿Cuál de las siguientes suele ser una restricción de la arquitectura Kappa?",
           "options": [
-            "…es una restricción del sistema planteada por uno de los stakeholders",
-            "…describe qué debería ocurrir cuando llega un estímulo",
-            "…es también conocido como deuda técnica o technical debt"
+            "Existe un protocolo de red en el que se transfiere un programa de un computador a otro",
+            "El log de eventos es append-only",
+            "En cada agente, no hay comunicación directa entre la parte de abstracción y de presentación"
           ],
           "answer": 1,
-          "explanation": "…describe qué debería ocurrir cuando llega un estímulo"
+          "explanation": "El log de eventos es append-only"
+        },{
+          "question": "¿Cuál de los siguientes tipos de software suele utilizarse para la gestión de un Call-Center?",
+          "options": [
+            "WMS",
+            "BPM",
+            "CRM"
+          ],
+          "answer": 2,
+          "explanation": "CRM"
+        },{
+          "question": "¿Cuál de las siguientes tecnologías se basa en el modelo de actores?",
+          "options": [
+            "Akka",
+            "Angular",
+            "Ionic"
+          ],
+          "answer": 0,
+          "explanation": "Akka"
+        },{
+          "question": "¿Cuál de los siguientes atributos de calidad puede mejorarse mediante el estilo Layers?",
+          "options": [
+            "Rendimiento",
+            "Testabilidad",
+            "Desplegabilidad"
+          ],
+          "answer": 1,
+          "explanation": "Testabilidad"
+        },{
+          "question": "Una línea de producto es:",
+          "options": [
+            "Una capa de la arquitectura Kappa",
+            "Un conjunto de productos que comparten una serie de funcionalidades para un segmento de mercado",
+            "Un componente de la vista de despliegue"
+          ],
+          "answer": 1,
+          "explanation": "Un conjunto de productos que comparten una serie de funcionalidades para un segmento de mercado"
+        },{
+          "question": "Un método de alcanzar el despliegue automático es:",
+          "options": [
+            "Separar la capa de presentación de la capa de control",
+            "Utilizar una arquitectura basada en microservicios",
+            "Mantener todos los ficheros de configuración, datos y código bajo control de versiones"
+          ],
+          "answer": 2,
+          "explanation": "Mantener todos los ficheros de configuración, datos y código bajo control de versiones"
+        },{
+          "question": "El estilo Serverless se basa en:",
+          "options": [
+            "Desarrollar solamente el front-end de las aplicaciones",
+            "Crear aplicaciones que dependen de servicios de terceras partes con escalabilidad automática",
+            "Crear modelos de actores que se ejecutan en los clientes"
+          ],
+          "answer": 1,
+          "explanation": "Crear aplicaciones que dependen de servicios de terceras partes con escalabilidad automática"
+        },{
+          "question": "En Event Sourcing:",
+          "options": [
+            "Se utilizan dos capas: la capa Batch y la capa Streaming",
+            "Existe una fuente que genera los eventos que serán procesados asíncronamente",
+            "Los cambios del estado de la aplicación se almacenan como secuencias de eventos"
+          ],
+          "answer": 2,
+          "explanation": "Los cambios del estado de la aplicación se almacenan como secuencias de eventos"
+        }
+    ]
+  },
+  {
+      "topic": "Examen Mayo 2014",
+      "questions": [
+        {
+          "question": "¿Cuáles son las principales actividades del arquitecto de software?",
+          "options": [
+            "Servir de puente entre el equipo de desarrollo y los usuarios finales de la aplicación con el objetivo de definir los requisitos del sistema.",
+            "Trabajar con el equipo de requisitos, con los stakeholders, con el equipo de diseño técnico y con los gestores de proyecto para realizar el diseño de la arquitectura",
+            "Diseñar la arquitectura siguiendo los atributos de calidad definidos por los stakeholders."
+          ],
+          "answer": 1,
+          "explanation": "Trabajar con el equipo de requisitos, con los stakeholders, con el equipo de diseño técnico y con los gestores de proyecto para realizar el diseño de la arquitectura"
+        },
+        {
+          "question": "CQRS...",
+          "options": [
+            "…propone separar el modelo en una parte que modifica el estado y otra que solamente lo consulta",
+            "…es un modelo de mensajería que facilita la integración entre aplicaciones",
+            "…es un sistema de control de releases de software"
+          ],
+          "answer": 0,
+          "explanation": "…propone separar el modelo en una parte que modifica el estado y otra que solamente lo consulta"
+        },
+        {
+          "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+          "options": [
+            "GIT es un sistema de control de versiones distribuido",
+            "CVS es un sistema de control de versiones distribuido",
+            "SVN es un sistema de control de versiones distribuido"
+          ],
+          "answer": 0,
+          "explanation": "GIT es un sistema de control de versiones distribuido"
+        },{
+          "question": "¿Cuáles son las fases RUP?",
+          "options": [
+            "Análisis, diseño, implementación y pruebas",
+            "Ciclos, fases e iteraciones.",
+            "Inicio, elaboración, construcción y transición"
+          ],
+          "answer": 2,
+          "explanation": "Inicio, elaboración, construcción y transición"
+        },{
+          "question": "¿Cuál de las siguientes afirmaciones es cierta?",
+          "options": [
+            "La Arquitectura dirigida por modelos permite, mediante los 3 puntos de vista definidos (CIM, PIM e ISM), la portabilidad, interoperabilidad y reusabilidad del software.",
+            "En la Arquitectura dirigida por modelos, mediante un proceso de abstracción, se obtiene un modelo como simplificación de la realidad, que ayuda a entender y razonar sobre dicha realidad.",
+            "La Arquitectura dirigida por modelos (MDA) es el término genérico que se emplea para identificar el enfoque de desarrollo del Software que, tomando a los modelos como elementos principales, permite un mayor grado de abstracción e interoperabilidad"
+          ],
+          "answer": 1,
+          "explanation":  "En la Arquitectura dirigida por modelos, mediante un proceso de abstracción, se obtiene un modelo como simplificación de la realidad, que ayuda a entender y razonar sobre dicha realidad."
+        },{
+          "question": "En la documentación de una arquitectura, La Hoja de ruta de la documentación describe…",
+          "options": [
+            "…cómo se ha creado la documentación, qué fases ha pasado y que metodología se ha utilizado",
+            "…cómo se ha procesado la documentación, qué responsables ha tenido y la lista de firmas.",
+            "…cómo se ha realizado la documentación, su organización y la manera de buscar información en ella."
+          ],
+          "answer": 2,
+          "explanation": "…cómo se ha realizado la documentación, su organización y la manera de buscar información en ella."
+        },{
+          "question": "¿Qué características son muy importantes en el concepto de Arquitectura del software?",
+          "options": [
+            "Especifica los requisitos de red necesarios para un sistema",
+            "Especifica la comunicación entre los componentes",
+            "Define las características funcionales, dejando las no funcionales para la etapa de diseño"
+          ],
+          "answer": 1,
+          "explanation": "Especifica la comunicación entre los componentes"
+        },{
+          "question": "¿Cuál de las siguientes afirmaciones es cierta?",
+          "options": [
+            "La Arquitectura del Software se basa en los requisitos funcionales de la aplicación.",
+            "La Arquitectura del Software define el lenguaje de programación que deberá usar el equipo de desarrollo",
+            "La Arquitectura del Software se define sobre una serie de atributos de calidad."
+          ],
+          "answer": 2,
+          "explanation": "La Arquitectura del Software se define sobre una serie de atributos de calidad."
+        },{
+          "question": "La vista de módulos define la manera en que se descompone el sistema, en ella, ¿Qué tipo de relaciones se pueden establecer entre los módulos?",
+          "options": [
+            "concerns, allocated-to y migrates-to.",
+            "is-a, is-part-of y depends-on.",
+            "relates-to, related-on y call-return."
+          ],
+          "answer": 1,
+          "explanation": "is-a, is-part-of y depends-on."
+        },{
+          "question": " Un problema de Pipes and Filters es…",
+          "options": [
+            "…la falta de interactividad",
+            "…que no es extensible",
+            "...la falta de concurrencia"
+          ],
+          "answer": 0,
+          "explanation": "…la falta de interactividad"
+        },{
+          "question": "En HTTP, la operación DELETE...",
+          "options": [
+            "...no es ni idempotente ni segura",
+            "...es idempotente y segura",
+            "...es idempotente pero no segura"
+          ],
+          "answer": 2,
+          "explanation": "...es idempotente pero no segura"
+        },{
+          "question": "ADD es un método de diseño de arquitecturas que se basa en…",
+          "options": [
+            "…la identificación de atributos de calidad que son modelados mediante escenarios de calidad",
+            "…la identificación de atributos de calidad que son modelados mediante escenarios de calidad",
+            "…la identificación de escenarios de calidad a partir de los cuales se crean los atributos de calidad"
+          ],
+          "answer": 0,
+          "explanation": "…la identificación de atributos de calidad que son modelados mediante escenarios de calidad"
+        },{
+          "question": "En el estilo MVC, el estado es representado por…",
+          "options": [
+            "... el controlador",
+            "... el modelo",
+            "... la vista"
+          ],
+          "answer": 1,
+          "explanation": "... el modelo"
+        },{
+          "question": "Un interfaz fluido...",
+          "options": [
+            "...se implementa mediante HATEOAS",
+            "...es un servicio web que separa los métodos de consulta de los métodos de escritura",
+            "...se puede obtener si los métodos que modifican un objeto devuelven dicho objeto"
+          ],
+          "answer": 2,
+          "explanation": "...se puede obtener si los métodos que modifican un objeto devuelven dicho objeto"
+        },{
+          "question": "Los COTS (Commercial Off-the-Shelf) son componentes…",
+          "options": [
+            "…que han sido rechazados para el sistema implementado.",
+            "…obtenidos de fuentes de software libre o de proveedores",
+            "…que no pertenecen a la plataforma desarrollada sino a los clientes"
+          ],
+          "answer": 1,
+          "explanation": "…obtenidos de fuentes de software libre o de proveedores"
         },{
           "question": "ATAM",
           "options": [
